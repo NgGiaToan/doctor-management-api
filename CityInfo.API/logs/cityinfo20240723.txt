@@ -1,0 +1,130 @@
+2024-07-23 22:46:49.343 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-23 22:46:49.397 +07:00 [DBG] Hosting starting
+2024-07-23 22:46:49.399 +07:00 [INF] User profile is available. Using '/Users/itcmember/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-07-23 22:46:49.402 +07:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2024-07-23 22:46:49.402 +07:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2024-07-23 22:46:49.404 +07:00 [INF] Creating key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} with creation date 2024-07-23 15:46:49Z, activation date 2024-07-23 15:46:49Z, and expiration date 2024-10-21 15:46:49Z.
+2024-07-23 22:46:49.407 +07:00 [DBG] Descriptor deserializer type for key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2024-07-23 22:46:49.409 +07:00 [DBG] No key escrow sink found. Not writing key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} to escrow.
+2024-07-23 22:46:49.409 +07:00 [WRN] No XML encryptor configured. Key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} may be persisted to storage in unencrypted form.
+2024-07-23 22:46:49.410 +07:00 [INF] Writing data to file '/Users/itcmember/.aspnet/DataProtection-Keys/key-41e82ed6-8714-4acb-afc4-50dd9110c4d1.xml'.
+2024-07-23 22:46:49.410 +07:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2024-07-23 22:46:49.411 +07:00 [DBG] Reading data from file '/Users/itcmember/.aspnet/DataProtection-Keys/key-41e82ed6-8714-4acb-afc4-50dd9110c4d1.xml'.
+2024-07-23 22:46:49.412 +07:00 [DBG] Found key {41e82ed6-8714-4acb-afc4-50dd9110c4d1}.
+2024-07-23 22:46:49.413 +07:00 [DBG] Considering key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} with expiration date 2024-10-21 15:46:49Z as default key.
+2024-07-23 22:46:49.414 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-23 22:46:49.414 +07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2024-07-23 22:46:49.414 +07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2024-07-23 22:46:49.415 +07:00 [DBG] Using key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} as the default key.
+2024-07-23 22:46:49.416 +07:00 [DBG] Key ring with default key {41e82ed6-8714-4acb-afc4-50dd9110c4d1} was loaded during application startup.
+2024-07-23 22:46:54.396 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 87AEBD8BED6AFA0046CC1EC495E6BA87757D11FD)
+2024-07-23 22:46:54.409 +07:00 [INF] Now listening on: https://localhost:7169
+2024-07-23 22:46:54.409 +07:00 [INF] Now listening on: http://localhost:5169
+2024-07-23 22:46:54.409 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-07-23 22:46:54.409 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-23 22:46:54.409 +07:00 [INF] Hosting environment: Development
+2024-07-23 22:46:54.409 +07:00 [INF] Content root path: /Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/
+2024-07-23 22:46:54.409 +07:00 [DBG] Hosting started
+2024-07-23 22:47:10.770 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" accepted.
+2024-07-23 22:47:10.771 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" accepted.
+2024-07-23 22:47:10.771 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" started.
+2024-07-23 22:47:10.772 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" started.
+2024-07-23 22:47:10.815 +07:00 [DBG] Connection 0HN5B5QRGPQ8O established using the following protocol: "Tls12"
+2024-07-23 22:47:10.819 +07:00 [DBG] Connection 0HN5B5QRGPQ8N established using the following protocol: "Tls12"
+2024-07-23 22:47:10.829 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger - -
+2024-07-23 22:47:10.830 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-23 22:47:10.849 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" completed keep alive response.
+2024-07-23 22:47:10.849 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger - - - 301 0 - 21.2916ms
+2024-07-23 22:47:10.851 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/index.html - -
+2024-07-23 22:47:10.870 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" completed keep alive response.
+2024-07-23 22:47:10.870 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/index.html - - - 200 - text/html;charset=utf-8 18.8553ms
+2024-07-23 22:47:10.879 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui.css - -
+2024-07-23 22:47:10.882 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" accepted.
+2024-07-23 22:47:10.883 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" started.
+2024-07-23 22:47:10.883 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - -
+2024-07-23 22:47:10.892 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-23 22:47:10.893 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" completed keep alive response.
+2024-07-23 22:47:10.894 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui.css - - - 200 143632 text/css 14.8057ms
+2024-07-23 22:47:10.894 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-23 22:47:10.894 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" completed keep alive response.
+2024-07-23 22:47:10.894 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 11.0494ms
+2024-07-23 22:47:10.896 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - -
+2024-07-23 22:47:10.899 +07:00 [DBG] Connection 0HN5B5QRGPQ8P established using the following protocol: "Tls12"
+2024-07-23 22:47:10.901 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-23 22:47:10.901 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" completed keep alive response.
+2024-07-23 22:47:10.901 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 5.1457ms
+2024-07-23 22:47:10.903 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" accepted.
+2024-07-23 22:47:10.903 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" started.
+2024-07-23 22:47:10.903 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" accepted.
+2024-07-23 22:47:10.903 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" started.
+2024-07-23 22:47:10.921 +07:00 [DBG] Connection 0HN5B5QRGPQ8R established using the following protocol: "Tls12"
+2024-07-23 22:47:10.921 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - -
+2024-07-23 22:47:10.923 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-23 22:47:10.923 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" completed keep alive response.
+2024-07-23 22:47:10.923 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 1.7271ms
+2024-07-23 22:47:10.925 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - -
+2024-07-23 22:47:10.925 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-23 22:47:10.925 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" completed keep alive response.
+2024-07-23 22:47:10.925 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 0.7270ms
+2024-07-23 22:47:10.934 +07:00 [DBG] Connection 0HN5B5QRGPQ8Q established using the following protocol: "Tls12"
+2024-07-23 22:47:11.025 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/v1/swagger.json - -
+2024-07-23 22:47:11.055 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/favicon-32x32.png - -
+2024-07-23 22:47:11.055 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-23 22:47:11.055 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" completed keep alive response.
+2024-07-23 22:47:11.055 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/favicon-32x32.png - - - 200 628 image/png 0.5191ms
+2024-07-23 22:47:11.105 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" completed keep alive response.
+2024-07-23 22:47:11.106 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.7380ms
+2024-07-23 22:48:39.947 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" received FIN.
+2024-07-23 22:48:39.948 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" received FIN.
+2024-07-23 22:48:39.949 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-23 22:48:39.950 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" disconnecting.
+2024-07-23 22:48:39.953 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" stopped.
+2024-07-23 22:48:39.954 +07:00 [DBG] Connection id "0HN5B5QRGPQ8P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-23 22:48:39.959 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" disconnecting.
+2024-07-23 22:48:39.960 +07:00 [DBG] Connection id "0HN5B5QRGPQ8Q" stopped.
+2024-07-23 22:49:21.587 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" disconnecting.
+2024-07-23 22:49:21.587 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" disconnecting.
+2024-07-23 22:49:21.587 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" stopped.
+2024-07-23 22:49:21.588 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" stopped.
+2024-07-23 22:49:21.588 +07:00 [DBG] Connection id "0HN5B5QRGPQ8R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-23 22:49:21.587 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" disconnecting.
+2024-07-23 22:49:21.589 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" stopped.
+2024-07-23 22:49:21.589 +07:00 [DBG] Connection id "0HN5B5QRGPQ8O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-23 22:49:21.591 +07:00 [DBG] Connection id "0HN5B5QRGPQ8N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-23 22:53:28.762 +07:00 [INF] Application is shutting down...
+2024-07-23 22:53:28.765 +07:00 [DBG] Hosting stopping
+2024-07-23 22:53:28.771 +07:00 [DBG] Hosting stopped
+2024-07-23 22:56:07.468 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-07-23 22:56:07.768 +07:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2024-07-23 22:56:07.822 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.823 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.823 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.830 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.839 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.839 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.839 +07:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.844 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.845 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.845 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.845 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.845 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.845 +07:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.855 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.857 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.857 +07:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.857 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.858 +07:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-07-23 22:56:07.863 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2024-07-23 22:56:07.866 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2024-07-23 22:56:07.867 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2024-07-23 22:56:07.867 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2024-07-23 22:56:07.893 +07:00 [DBG] 'CityInfoContext' disposed.
