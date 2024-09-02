@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/CityInfo.API.csproj": {}
+    "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj": {}
   },
   "projects": {
-    "/Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/CityInfo.API.csproj": {
+    "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/CityInfo.API.csproj",
+        "projectUniqueName": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "/Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/CityInfo.API.csproj",
-        "packagesPath": "/Users/itcmember/.nuget/packages/",
-        "outputPath": "/Users/itcmember/Documents/Self/AspNetCore6WebAPIFundamentals/CityInfo.API/obj/",
+        "projectPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj",
+        "packagesPath": "C:\\Users\\giato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/itcmember/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,45 +34,60 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[12.0.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.15.0, )"
+              "version": "[8.0.8, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -78,15 +95,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.15.0, )"
-            },
-            "microsoft.entityframeworkcore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.2, )"
             },
             "serilog.sinks.console": {
               "target": "Package",
@@ -116,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.419/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

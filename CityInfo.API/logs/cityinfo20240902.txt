@@ -1,0 +1,216 @@
+2024-09-02 17:32:23.904 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-02 17:32:24.292 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-02 17:32:24.707 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-02 17:33:27.036 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-02 17:33:27.334 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-02 17:33:27.342 +07:00 [DBG] Creating DbConnection.
+2024-09-02 17:33:27.381 +07:00 [DBG] Created DbConnection. (36ms).
+2024-09-02 17:33:27.382 +07:00 [DBG] Migrating using database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.387 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.587 +07:00 [DBG] An error occurred using the connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.587 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.588 +07:00 [DBG] An error occurred using the connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.611 +07:00 [DBG] Creating DbConnection.
+2024-09-02 17:33:27.612 +07:00 [DBG] Created DbConnection. (0ms).
+2024-09-02 17:33:27.612 +07:00 [DBG] Opening connection to database 'master' on server '.\sqlexpress'.
+2024-09-02 17:33:27.622 +07:00 [DBG] Opened connection to database 'master' on server '.\sqlexpress'.
+2024-09-02 17:33:27.625 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:27.628 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2024-09-02 17:33:27.629 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2024-09-02 17:33:27.632 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [DoctorDatabase];
+2024-09-02 17:33:27.800 +07:00 [INF] Executed DbCommand (167ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [DoctorDatabase];
+2024-09-02 17:33:27.800 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:27.800 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.801 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.801 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [DoctorDatabase] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-02 17:33:27.864 +07:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [DoctorDatabase] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-02 17:33:27.864 +07:00 [DBG] Closing connection to database 'master' on server '.\sqlexpress'.
+2024-09-02 17:33:27.868 +07:00 [DBG] Closed connection to database 'master' on server '.\sqlexpress' (2ms).
+2024-09-02 17:33:27.870 +07:00 [DBG] Disposing connection to database 'master' on server '.\sqlexpress'.
+2024-09-02 17:33:27.870 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-09-02 17:33:27.870 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.874 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.874 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:27.874 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.874 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.874 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-02 17:33:27.879 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-02 17:33:27.879 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.879 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:27.910 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:27.910 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.910 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:27.910 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.911 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.911 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-02 17:33:27.921 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-02 17:33:27.921 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.921 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:27.922 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.922 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:27.922 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:28.171 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (248ms).
+2024-09-02 17:33:28.171 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (248ms).
+2024-09-02 17:33:28.171 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-02 17:33:28.172 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-02 17:33:28.172 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.172 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:28.173 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-09-02 17:33:28.173 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-09-02 17:33:28.173 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-09-02 17:33:28.173 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.174 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.174 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-02 17:33:28.183 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-02 17:33:28.183 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.183 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:28.184 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.184 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.184 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-02 17:33:28.185 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-02 17:33:28.185 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-09-02 17:33:28.185 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-02 17:33:28.199 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-02 17:33:28.201 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.202 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 1ms reading results.
+2024-09-02 17:33:28.202 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.202 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:28.207 +07:00 [INF] Applying migration '20240902103224_DoctorManagementDatabase'.
+2024-09-02 17:33:28.224 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.224 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:28.225 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-02 17:33:28.229 +07:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-09-02 17:33:28.229 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:28.229 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:28.230 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:28.230 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Payment] (
+    [PaymentId] uniqueidentifier NOT NULL,
+    [PaymentName] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Payment] PRIMARY KEY ([PaymentId])
+);
+2024-09-02 17:33:28.232 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Payment] (
+    [PaymentId] uniqueidentifier NOT NULL,
+    [PaymentName] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Payment] PRIMARY KEY ([PaymentId])
+);
+2024-09-02 17:33:28.232 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:28.232 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:28.232 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:28.232 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Patient] (
+    [PatientId] uniqueidentifier NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [Gender] nvarchar(max) NOT NULL,
+    [Avatar] nvarchar(max) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [Location] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [PhoneNumber] nvarchar(max) NOT NULL,
+    [Diseases] nvarchar(max) NOT NULL,
+    [PaymentId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Patient] PRIMARY KEY ([PatientId]),
+    CONSTRAINT [FK_Patient_Payment_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payment] ([PaymentId])
+);
+2024-09-02 17:33:32.320 +07:00 [INF] Executed DbCommand (4,088ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Patient] (
+    [PatientId] uniqueidentifier NOT NULL,
+    [Status] nvarchar(max) NOT NULL,
+    [Gender] nvarchar(max) NOT NULL,
+    [Avatar] nvarchar(max) NOT NULL,
+    [FullName] nvarchar(max) NOT NULL,
+    [Date] datetime2 NOT NULL,
+    [Location] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [PhoneNumber] nvarchar(max) NOT NULL,
+    [Diseases] nvarchar(max) NOT NULL,
+    [PaymentId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Patient] PRIMARY KEY ([PatientId]),
+    CONSTRAINT [FK_Patient_Payment_PaymentId] FOREIGN KEY ([PaymentId]) REFERENCES [Payment] ([PaymentId])
+);
+2024-09-02 17:33:32.320 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:32.320 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.320 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.320 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Appointment] (
+    [AppoitmentId] uniqueidentifier NOT NULL,
+    [AppoitmentTime] nvarchar(max) NOT NULL,
+    [AppoitmentStatus] nvarchar(max) NOT NULL,
+    [PatientId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Appointment] PRIMARY KEY ([AppoitmentId]),
+    CONSTRAINT [FK_Appointment_Patient_PatientId] FOREIGN KEY ([PatientId]) REFERENCES [Patient] ([PatientId])
+);
+2024-09-02 17:33:32.321 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Appointment] (
+    [AppoitmentId] uniqueidentifier NOT NULL,
+    [AppoitmentTime] nvarchar(max) NOT NULL,
+    [AppoitmentStatus] nvarchar(max) NOT NULL,
+    [PatientId] uniqueidentifier NULL,
+    CONSTRAINT [PK_Appointment] PRIMARY KEY ([AppoitmentId]),
+    CONSTRAINT [FK_Appointment_Patient_PatientId] FOREIGN KEY ([PatientId]) REFERENCES [Patient] ([PatientId])
+);
+2024-09-02 17:33:32.321 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:32.321 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.321 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.321 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Appointment_PatientId] ON [Appointment] ([PatientId]);
+2024-09-02 17:33:32.324 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Appointment_PatientId] ON [Appointment] ([PatientId]);
+2024-09-02 17:33:32.324 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:32.324 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.324 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.324 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Patient_PaymentId] ON [Patient] ([PaymentId]);
+2024-09-02 17:33:32.325 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Patient_PaymentId] ON [Patient] ([PaymentId]);
+2024-09-02 17:33:32.325 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-09-02 17:33:32.325 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.325 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-09-02 17:33:32.325 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240902103224_DoctorManagementDatabase', N'8.0.8');
+2024-09-02 17:33:32.334 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240902103224_DoctorManagementDatabase', N'8.0.8');
+2024-09-02 17:33:32.334 +07:00 [DBG] Committing transaction.
+2024-09-02 17:33:32.337 +07:00 [DBG] Committed transaction.
+2024-09-02 17:33:32.338 +07:00 [DBG] Disposing transaction.
+2024-09-02 17:33:36.244 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:36.244 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-02 17:33:36.245 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-02 17:33:36.246 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-02 17:33:36.246 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
