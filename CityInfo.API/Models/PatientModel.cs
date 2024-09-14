@@ -1,12 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-
-namespace CityInfo.API.DbContexts
+﻿namespace CityInfo.API.Models
 {
-    public class Patient
+    public class PatientModel
     {
-        public Guid PatientId { get; set; }
         public string Status { get; set; }
         public string Gender { get; set; }
         public string Avatar { get; set; }
@@ -18,8 +13,7 @@ namespace CityInfo.API.DbContexts
         public string Diseases { get; set; }
 
         public Guid PaymentId { get; set; }
-        public Payment Payment { get; set; }
-        public virtual ICollection<Appointment> Appointments { get; set; }
 
+        //public string PaymentName { get; set; }
     }
 }

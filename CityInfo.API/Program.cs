@@ -79,6 +79,8 @@ builder.Services.AddDbContext<DoctorManagementContext>(option => option.UseSqlSe
 
 builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
 
+builder.Services.AddScoped<IPatientRespository, PatientRespository>();
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddAuthentication("Bearer")
