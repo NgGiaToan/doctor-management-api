@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -89,9 +93,13 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -103,7 +111,7 @@
             },
             "serilog.sinks.console": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.0, )"
             },
             "serilog.sinks.file": {
               "target": "Package",

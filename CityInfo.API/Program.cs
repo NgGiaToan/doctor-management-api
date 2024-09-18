@@ -1,10 +1,13 @@
 using CityInfo.API;
 using CityInfo.API.DbContexts;
+using CityInfo.API.Models;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 using Serilog;
 using System.Reflection;
 using System.Text;
@@ -69,6 +72,8 @@ builder.Services.AddTransient<IMailService, CloudMailService>();
 
 builder.Services.AddSingleton<CitiesDataStore>();
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
 builder.Services.AddDbContext<CityInfoContext>(
     dbContextOptions => dbContextOptions.UseSqlite(
         builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
@@ -80,6 +85,11 @@ builder.Services.AddDbContext<DoctorManagementContext>(option => option.UseSqlSe
 builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
 
 builder.Services.AddScoped<IPatientRespository, PatientRespository>();
+
+builder.Services.AddScoped<IAppointmentRespository, AppointmentRespository>();
+
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -114,6 +124,7 @@ builder.Services.AddApiVersioning(setupAction =>
     setupAction.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
     setupAction.ReportApiVersions = true;
 });
+
 
 
 var app = builder.Build();

@@ -180,3 +180,6 @@ C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\obj\Debug\net8.0\refint\Cit
 C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\obj\Debug\net8.0\CityInfo.API.pdb
 C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\obj\Debug\net8.0\CityInfo.API.genruntimeconfig.cache
 C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\obj\Debug\net8.0\ref\CityInfo.API.dll
+C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\bin\Debug\net8.0\MailKit.dll
+C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API\bin\Debug\net8.0\MimeKit.dll
