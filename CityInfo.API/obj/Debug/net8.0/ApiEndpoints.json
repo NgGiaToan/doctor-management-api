@@ -101,15 +101,15 @@
   },
   {
     "ContainingType": "CityInfo.API.Controllers.AppointmentController",
-    "Method": "SendMail",
-    "RelativePath": "api/Appointment/SendMail",
-    "HttpMethod": "POST",
+    "Method": "RecentPatient",
+    "RelativePath": "api/Appointment/RecentPatient/{n}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "appointment",
-        "Type": "CityInfo.API.Models.AppointmentModelForAdd",
+        "Name": "n",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -142,6 +142,101 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.DoctorController",
+    "Method": "GetAllDoctor",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.DoctorController",
+    "Method": "Add",
+    "RelativePath": "api/Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CityInfo.API.Models.DoctorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.DoctorController",
+    "Method": "Update",
+    "RelativePath": "api/Doctor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "CityInfo.API.Models.DoctorVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.DoctorController",
+    "Method": "Delete",
+    "RelativePath": "api/Doctor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.DoctorController",
+    "Method": "GetByIndex",
+    "RelativePath": "api/Doctor/{index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CityInfo.API.Controllers.FilesController",
@@ -254,6 +349,22 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CityInfo.API.Controllers.PatientController",
+    "Method": "PatientChart",
+    "RelativePath": "api/Patient/year/{n}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "n",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -414,7 +525,8 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "GetPointOfInterest"
   },
   {
     "ContainingType": "CityInfo.API.Controllers.PointsOfInterestController",

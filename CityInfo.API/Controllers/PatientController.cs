@@ -3,6 +3,7 @@ using CityInfo.API.Models;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -44,6 +45,28 @@ namespace CityInfo.API.Controllers
             catch
             {
                 return BadRequest("We can't get the patient.");
+            }
+        }
+
+        [HttpGet("year/{n}")]
+        public IActionResult PatientChart(int n)
+        {
+            try
+            {
+                var data = _patientRespository.PatientChart(n);
+                if (data != null)
+                {
+                    return Ok(data);
+                }
+                else
+                {
+                    return NotFound();
+                }
+
+            }
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -114,6 +137,13 @@ namespace CityInfo.API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
+
+        //private readonly DoctorManagementContext _context;
+
+        //public PatientController(DoctorManagementContext context)
+        //{
+        //    _context = context;
+        //}
 
         //[HttpGet("{id}")]
         //public IActionResult GetById(Guid id)

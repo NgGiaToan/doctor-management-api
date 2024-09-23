@@ -20,7 +20,7 @@ namespace CityInfo.API.Services
             try
             {
                 var email = new MimeMessage();
-                email.Sender = new MailboxAddress("Doctor Management",_emailsettings.Email);
+                email.Sender = new MailboxAddress("DoctorManagementWebsite",_emailsettings.Email);
                 email.To.Add(MailboxAddress.Parse(emailRequest.ToEmail));
                 email.Subject = emailRequest.Subject;
 

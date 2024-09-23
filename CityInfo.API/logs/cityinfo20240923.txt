@@ -1,0 +1,989 @@
+2024-09-23 09:42:10.435 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-23 09:42:10.562 +07:00 [DBG] Hosting starting
+2024-09-23 09:42:10.598 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-23 09:42:10.605 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-09-23 09:42:10.611 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-09-23 09:42:10.616 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-09-23 09:42:10.620 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-09-23 09:42:10.624 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-09-23 09:42:10.626 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 09:42:10.628 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-23 09:42:10.630 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 09:42:10.634 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-23 09:42:10.635 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-23 09:42:10.637 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-09-23 09:42:10.638 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-09-23 09:42:10.798 +07:00 [INF] Now listening on: https://localhost:7169
+2024-09-23 09:42:10.798 +07:00 [INF] Now listening on: http://localhost:5169
+2024-09-23 09:42:10.799 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-09-23 09:42:10.800 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-23 09:42:10.800 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-23 09:42:10.800 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-23 09:42:10.855 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 09:42:10.856 +07:00 [INF] Hosting environment: Development
+2024-09-23 09:42:10.858 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API
+2024-09-23 09:42:10.860 +07:00 [DBG] Hosting started
+2024-09-23 09:42:15.964 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" accepted.
+2024-09-23 09:42:15.965 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" started.
+2024-09-23 09:42:16.038 +07:00 [DBG] Connection 0HN6RF5AVGQ17 established using the following protocol: "Tls13"
+2024-09-23 09:42:16.077 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/index.html - null null
+2024-09-23 09:42:16.184 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-23 09:42:16.243 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-23 09:42:16.244 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-23 09:42:16.258 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-23 09:42:16.259 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-23 09:42:16.261 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/index.html - 200 null text/html;charset=utf-8 186.9687ms
+2024-09-23 09:42:16.475 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-23 09:42:16.483 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.6772ms
+2024-09-23 09:42:16.516 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_vs/browserLink - null null
+2024-09-23 09:42:16.563 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4661ms
+2024-09-23 09:42:16.948 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - null null
+2024-09-23 09:42:17.099 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.2364ms
+2024-09-23 09:42:17.840 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" received FIN.
+2024-09-23 09:42:17.843 +07:00 [DBG] The connection queue processing loop for 0HN6RF5AVGQ17 completed.
+2024-09-23 09:42:17.845 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" is closed. The last processed stream ID was 7.
+2024-09-23 09:42:17.846 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 09:42:17.861 +07:00 [DBG] Connection id "0HN6RF5AVGQ17" stopped.
+2024-09-23 09:42:23.431 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" accepted.
+2024-09-23 09:42:23.432 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" started.
+2024-09-23 09:42:23.440 +07:00 [DBG] Connection 0HN6RF5AVGQ18 established using the following protocol: "Tls13"
+2024-09-23 09:42:23.443 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7169/api/Appointment - application/json-patch+json 230
+2024-09-23 09:42:23.447 +07:00 [DBG] POST requests are not supported
+2024-09-23 09:42:23.471 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-09-23 09:42:23.474 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-09-23 09:42:23.481 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 09:42:23.535 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-23 09:42:23.538 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 09:42:23.566 +07:00 [INF] Route matched with {action = "Add", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(CityInfo.API.Models.AppointmentModelForAdd) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-09-23 09:42:23.569 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-23 09:42:23.569 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-23 09:42:23.570 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 09:42:23.571 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-23 09:42:23.572 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 09:42:23.575 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 09:42:23.680 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-23 09:42:23.697 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 09:42:23.702 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 09:42:23.704 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' using the name '' in request data ...
+2024-09-23 09:42:23.705 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 09:42:23.707 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 09:42:23.712 +07:00 [DBG] Connection id "0HN6RF5AVGQ18", Request id "0HN6RF5AVGQ18:00000001": started reading request body.
+2024-09-23 09:42:23.713 +07:00 [DBG] Connection id "0HN6RF5AVGQ18", Request id "0HN6RF5AVGQ18:00000001": done reading request body.
+2024-09-23 09:42:23.780 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 09:42:23.782 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 09:42:23.783 +07:00 [DBG] Attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 09:42:23.793 +07:00 [DBG] Done attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 09:42:24.311 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-23 09:42:24.371 +07:00 [DBG] Compiling query expression: 
+'DbSet<Patient>()
+    .SingleOrDefault(pt => pt.PatientId == __appointment_PatientId_0)'
+2024-09-23 09:42:24.531 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Patient.PatientId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Patient.Avatar (string) Required MaxLength(255), 1], [Property: Patient.Date (DateTime) Required, 2], [Property: Patient.Diseases (string) Required MaxLength(500), 3], [Property: Patient.Email (string) Required MaxLength(100), 4], [Property: Patient.FullName (string) Required MaxLength(100), 5], [Property: Patient.Gender (string) Required, 6], [Property: Patient.Location (string) Required MaxLength(255), 7], [Property: Patient.PaymentId (Guid) Required FK Index, 8], [Property: Patient.PhoneNumber (string) Required MaxLength(15), 9], [Property: Patient.Status (string) Required, 10] }
+        SELECT TOP(2) p.PatientId, p.Avatar, p.Date, p.Diseases, p.Email, p.FullName, p.Gender, p.Location, p.PaymentId, p.PhoneNumber, p.Status
+        FROM Patient AS p
+        WHERE p.PatientId == @__appointment_PatientId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Patient>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 09:42:24.557 +07:00 [DBG] Creating DbConnection.
+2024-09-23 09:42:24.579 +07:00 [DBG] Created DbConnection. (20ms).
+2024-09-23 09:42:24.581 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:24.944 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:24.947 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 09:42:24.952 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-09-23 09:42:24.961 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-09-23 09:42:24.971 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 09:42:25.086 +07:00 [INF] Executed DbCommand (119ms) [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 09:42:25.124 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:25.150 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.159 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 67ms reading results.
+2024-09-23 09:42:25.162 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.168 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (6ms).
+2024-09-23 09:42:25.170 +07:00 [DBG] Compiling query expression: 
+'DbSet<Doctor>()
+    .SingleOrDefault(dt => dt.DoctorId == __appointment_DoctorId_0)'
+2024-09-23 09:42:25.175 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Doctor>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Doctor.DoctorId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Doctor.DoctorDepartment (string) Required, 1], [Property: Doctor.DoctorName (string) Required, 2] }
+        SELECT TOP(2) d.DoctorId, d.DoctorDepartment, d.DoctorName
+        FROM Doctor AS d
+        WHERE d.DoctorId == @__appointment_DoctorId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Doctor>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 09:42:25.177 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.179 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.180 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 09:42:25.180 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 09:42:25.181 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-09-23 09:42:25.182 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 09:42:25.200 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 09:42:25.206 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Doctor' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:25.212 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.213 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 11ms reading results.
+2024-09-23 09:42:25.214 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:25.215 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-23 09:42:28.953 +07:00 [DBG] 'DoctorManagementContext' generated a value for the property 'Appointment.AppointmentId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:28.982 +07:00 [DBG] The navigation 'Appointment.Doctor' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:28.993 +07:00 [DBG] The navigation 'Appointment.Patient' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:28.998 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Appointment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:29.001 +07:00 [DBG] SaveChanges starting for 'DoctorManagementContext'.
+2024-09-23 09:42:29.004 +07:00 [DBG] DetectChanges starting for 'DoctorManagementContext'.
+2024-09-23 09:42:29.021 +07:00 [DBG] DetectChanges completed for 'DoctorManagementContext'.
+2024-09-23 09:42:29.085 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:29.088 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:29.092 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 09:42:29.093 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 09:42:29.095 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 09:42:29.096 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 09:42:29.153 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 09:42:29.160 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:29.161 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 6ms reading results.
+2024-09-23 09:42:29.165 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:29.166 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-09-23 09:42:29.172 +07:00 [DBG] An entity of type 'Appointment' tracked by 'DoctorManagementContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 09:42:29.174 +07:00 [DBG] SaveChanges completed for 'DoctorManagementContext' with 1 entities written to the database.
+2024-09-23 09:42:29.180 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-09-23 09:42:29.182 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-23 09:42:29.182 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-23 09:42:29.183 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-23 09:42:29.184 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-23 09:42:29.185 +07:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 09:42:29.216 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API) in 5639.7431ms
+2024-09-23 09:42:29.217 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 09:42:29.220 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-23 09:42:29.224 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 09:42:29.227 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-09-23 09:42:29.228 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7169/api/Appointment - 200 209 application/json; charset=utf-8 5785.4744ms
+2024-09-23 09:42:32.888 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" received FIN.
+2024-09-23 09:42:32.889 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" is closed. The last processed stream ID was 1.
+2024-09-23 09:42:32.890 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 09:42:32.891 +07:00 [DBG] The connection queue processing loop for 0HN6RF5AVGQ18 completed.
+2024-09-23 09:42:32.892 +07:00 [DBG] Connection id "0HN6RF5AVGQ18" stopped.
+2024-09-23 11:52:02.758 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-23 11:52:03.032 +07:00 [DBG] Hosting starting
+2024-09-23 11:52:03.086 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-23 11:52:03.106 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-09-23 11:52:03.124 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-09-23 11:52:03.135 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-09-23 11:52:03.148 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-09-23 11:52:03.157 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-09-23 11:52:03.164 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 11:52:03.167 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-23 11:52:03.170 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 11:52:03.177 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-23 11:52:03.180 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-23 11:52:03.183 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-09-23 11:52:03.184 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-09-23 11:52:03.526 +07:00 [INF] Now listening on: https://localhost:7169
+2024-09-23 11:52:03.527 +07:00 [INF] Now listening on: http://localhost:5169
+2024-09-23 11:52:03.528 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-09-23 11:52:03.528 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-23 11:52:03.529 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-23 11:52:03.529 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-23 11:52:03.688 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 11:52:03.688 +07:00 [INF] Hosting environment: Development
+2024-09-23 11:52:03.689 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API
+2024-09-23 11:52:03.690 +07:00 [DBG] Hosting started
+2024-09-23 11:52:03.815 +07:00 [DBG] Connection id "0HN6RHDRU373T" accepted.
+2024-09-23 11:52:03.815 +07:00 [DBG] Connection id "0HN6RHDRU373S" accepted.
+2024-09-23 11:52:03.823 +07:00 [DBG] Connection id "0HN6RHDRU373T" started.
+2024-09-23 11:52:03.823 +07:00 [DBG] Connection id "0HN6RHDRU373S" started.
+2024-09-23 11:52:03.933 +07:00 [DBG] Connection id "0HN6RHDRU373S" received FIN.
+2024-09-23 11:52:03.954 +07:00 [DBG] Connection 0HN6RHDRU373S established using the following protocol: "Tls13"
+2024-09-23 11:52:03.954 +07:00 [DBG] Connection 0HN6RHDRU373T established using the following protocol: "Tls13"
+2024-09-23 11:52:03.980 +07:00 [DBG] Connection id "0HN6RHDRU373S" is closed. The last processed stream ID was 0.
+2024-09-23 11:52:03.982 +07:00 [DBG] Connection id "0HN6RHDRU373S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 11:52:03.986 +07:00 [DBG] The connection queue processing loop for 0HN6RHDRU373S completed.
+2024-09-23 11:52:03.993 +07:00 [DBG] Connection id "0HN6RHDRU373S" stopped.
+2024-09-23 11:52:04.007 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/index.html - null null
+2024-09-23 11:52:04.152 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-23 11:52:04.226 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-23 11:52:04.228 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-23 11:52:04.248 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-23 11:52:04.249 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-23 11:52:04.254 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/index.html - 200 null text/html;charset=utf-8 252.0041ms
+2024-09-23 11:52:04.299 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-23 11:52:04.309 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.8263ms
+2024-09-23 11:52:04.406 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_vs/browserLink - null null
+2024-09-23 11:52:04.460 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.6567ms
+2024-09-23 11:52:04.675 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - null null
+2024-09-23 11:52:04.812 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.7349ms
+2024-09-23 11:52:06.072 +07:00 [DBG] Connection id "0HN6RHDRU373T" received FIN.
+2024-09-23 11:52:06.073 +07:00 [DBG] Connection id "0HN6RHDRU373T" is closed. The last processed stream ID was 7.
+2024-09-23 11:52:06.073 +07:00 [DBG] The connection queue processing loop for 0HN6RHDRU373T completed.
+2024-09-23 11:52:06.074 +07:00 [DBG] Connection id "0HN6RHDRU373T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 11:52:06.083 +07:00 [DBG] Connection id "0HN6RHDRU373T" stopped.
+2024-09-23 11:52:10.685 +07:00 [DBG] Connection id "0HN6RHDRU373U" accepted.
+2024-09-23 11:52:10.686 +07:00 [DBG] Connection id "0HN6RHDRU373U" started.
+2024-09-23 11:52:10.699 +07:00 [DBG] Connection 0HN6RHDRU373U established using the following protocol: "Tls13"
+2024-09-23 11:52:10.704 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7169/api/Appointment - application/json-patch+json 230
+2024-09-23 11:52:10.709 +07:00 [DBG] POST requests are not supported
+2024-09-23 11:52:10.736 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-09-23 11:52:10.740 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-09-23 11:52:10.747 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 11:52:10.801 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-23 11:52:10.803 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 11:52:10.826 +07:00 [INF] Route matched with {action = "Add", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(CityInfo.API.Models.AppointmentModelForAdd) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-09-23 11:52:10.828 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-23 11:52:10.829 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-23 11:52:10.829 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 11:52:10.830 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-23 11:52:10.831 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 11:52:10.833 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 11:52:10.967 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-23 11:52:10.995 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 11:52:11.002 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 11:52:11.005 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' using the name '' in request data ...
+2024-09-23 11:52:11.009 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 11:52:11.010 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 11:52:11.019 +07:00 [DBG] Connection id "0HN6RHDRU373U", Request id "0HN6RHDRU373U:00000001": started reading request body.
+2024-09-23 11:52:11.020 +07:00 [DBG] Connection id "0HN6RHDRU373U", Request id "0HN6RHDRU373U:00000001": done reading request body.
+2024-09-23 11:52:11.105 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 11:52:11.106 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 11:52:11.107 +07:00 [DBG] Attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 11:52:11.118 +07:00 [DBG] Done attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 11:52:11.764 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-23 11:52:11.821 +07:00 [DBG] Compiling query expression: 
+'DbSet<Patient>()
+    .SingleOrDefault(pt => pt.PatientId == __appointment_PatientId_0)'
+2024-09-23 11:52:11.981 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Patient.PatientId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Patient.Avatar (string) Required MaxLength(255), 1], [Property: Patient.Date (DateTime) Required, 2], [Property: Patient.Diseases (string) Required MaxLength(500), 3], [Property: Patient.Email (string) Required MaxLength(100), 4], [Property: Patient.FullName (string) Required MaxLength(100), 5], [Property: Patient.Gender (string) Required, 6], [Property: Patient.Location (string) Required MaxLength(255), 7], [Property: Patient.PaymentId (Guid) Required FK Index, 8], [Property: Patient.PhoneNumber (string) Required MaxLength(15), 9], [Property: Patient.Status (string) Required, 10] }
+        SELECT TOP(2) p.PatientId, p.Avatar, p.Date, p.Diseases, p.Email, p.FullName, p.Gender, p.Location, p.PaymentId, p.PhoneNumber, p.Status
+        FROM Patient AS p
+        WHERE p.PatientId == @__appointment_PatientId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Patient>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 11:52:12.008 +07:00 [DBG] Creating DbConnection.
+2024-09-23 11:52:12.032 +07:00 [DBG] Created DbConnection. (23ms).
+2024-09-23 11:52:12.035 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.444 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.447 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 11:52:12.451 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-09-23 11:52:12.458 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2024-09-23 11:52:12.466 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 11:52:12.609 +07:00 [INF] Executed DbCommand (141ms) [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 11:52:12.651 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:12.678 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.686 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 71ms reading results.
+2024-09-23 11:52:12.913 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.919 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (5ms).
+2024-09-23 11:52:12.921 +07:00 [DBG] Compiling query expression: 
+'DbSet<Doctor>()
+    .SingleOrDefault(dt => dt.DoctorId == __appointment_DoctorId_0)'
+2024-09-23 11:52:12.926 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Doctor>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Doctor.DoctorId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Doctor.DoctorDepartment (string) Required, 1], [Property: Doctor.DoctorName (string) Required, 2] }
+        SELECT TOP(2) d.DoctorId, d.DoctorDepartment, d.DoctorName
+        FROM Doctor AS d
+        WHERE d.DoctorId == @__appointment_DoctorId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Doctor>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 11:52:12.927 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.929 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.930 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 11:52:12.930 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 11:52:12.931 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-09-23 11:52:12.932 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 11:52:12.950 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 11:52:12.955 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Doctor' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:12.960 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.961 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 9ms reading results.
+2024-09-23 11:52:12.962 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:12.962 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-23 11:52:16.344 +07:00 [DBG] 'DoctorManagementContext' generated a value for the property 'Appointment.AppointmentId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:16.362 +07:00 [DBG] The navigation 'Appointment.Doctor' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:16.370 +07:00 [DBG] The navigation 'Appointment.Patient' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:16.374 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Appointment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:16.377 +07:00 [DBG] SaveChanges starting for 'DoctorManagementContext'.
+2024-09-23 11:52:16.379 +07:00 [DBG] DetectChanges starting for 'DoctorManagementContext'.
+2024-09-23 11:52:16.392 +07:00 [DBG] DetectChanges completed for 'DoctorManagementContext'.
+2024-09-23 11:52:16.441 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:16.444 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:16.448 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 11:52:16.448 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 11:52:16.449 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-09-23 11:52:16.451 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 11:52:16.508 +07:00 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 11:52:16.512 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:16.514 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 4ms reading results.
+2024-09-23 11:52:16.517 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:16.518 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-23 11:52:16.524 +07:00 [DBG] An entity of type 'Appointment' tracked by 'DoctorManagementContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 11:52:16.526 +07:00 [DBG] SaveChanges completed for 'DoctorManagementContext' with 1 entities written to the database.
+2024-09-23 11:52:16.531 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-09-23 11:52:16.533 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-23 11:52:16.534 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-23 11:52:16.534 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-23 11:52:16.535 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-23 11:52:16.536 +07:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 11:52:16.562 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API) in 5727.7171ms
+2024-09-23 11:52:16.564 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 11:52:16.566 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-23 11:52:16.570 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 11:52:16.571 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-09-23 11:52:16.573 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7169/api/Appointment - 200 209 application/json; charset=utf-8 5868.8893ms
+2024-09-23 11:52:21.079 +07:00 [DBG] Connection id "0HN6RHDRU373U" received FIN.
+2024-09-23 11:52:21.080 +07:00 [DBG] Connection id "0HN6RHDRU373U" is closed. The last processed stream ID was 1.
+2024-09-23 11:52:21.081 +07:00 [DBG] The connection queue processing loop for 0HN6RHDRU373U completed.
+2024-09-23 11:52:21.081 +07:00 [DBG] Connection id "0HN6RHDRU373U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 11:52:21.089 +07:00 [DBG] Connection id "0HN6RHDRU373U" stopped.
+2024-09-23 12:00:32.159 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-23 12:00:32.260 +07:00 [DBG] Hosting starting
+2024-09-23 12:00:32.289 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-23 12:00:32.297 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-09-23 12:00:32.307 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-09-23 12:00:32.312 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-09-23 12:00:32.317 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-09-23 12:00:32.321 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-09-23 12:00:32.324 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 12:00:32.326 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-23 12:00:32.327 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 12:00:32.331 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-23 12:00:32.332 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-23 12:00:32.334 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-09-23 12:00:32.334 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-09-23 12:00:32.512 +07:00 [INF] Now listening on: https://localhost:7169
+2024-09-23 12:00:32.513 +07:00 [INF] Now listening on: http://localhost:5169
+2024-09-23 12:00:32.514 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-09-23 12:00:32.514 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-23 12:00:32.515 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-23 12:00:32.515 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-23 12:00:32.568 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 12:00:32.569 +07:00 [INF] Hosting environment: Development
+2024-09-23 12:00:32.570 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API
+2024-09-23 12:00:32.570 +07:00 [DBG] Hosting started
+2024-09-23 12:00:53.617 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" accepted.
+2024-09-23 12:00:53.624 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" started.
+2024-09-23 12:00:53.768 +07:00 [DBG] Connection 0HN6RHIPQOS1J established using the following protocol: "Tls13"
+2024-09-23 12:00:53.861 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/index.html - null null
+2024-09-23 12:00:54.013 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-23 12:00:54.129 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-23 12:00:54.131 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-23 12:00:54.151 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-23 12:00:54.152 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-23 12:00:54.156 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/index.html - 200 null text/html;charset=utf-8 302.4015ms
+2024-09-23 12:00:54.211 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_vs/browserLink - null null
+2024-09-23 12:00:54.211 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-23 12:00:54.225 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 14.7171ms
+2024-09-23 12:00:54.257 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9443ms
+2024-09-23 12:00:54.480 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - null null
+2024-09-23 12:00:54.653 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 172.7545ms
+2024-09-23 12:00:57.282 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" received FIN.
+2024-09-23 12:00:57.287 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" is closed. The last processed stream ID was 7.
+2024-09-23 12:00:57.288 +07:00 [DBG] The connection queue processing loop for 0HN6RHIPQOS1J completed.
+2024-09-23 12:00:57.289 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 12:00:57.296 +07:00 [DBG] Connection id "0HN6RHIPQOS1J" stopped.
+2024-09-23 12:01:03.150 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" accepted.
+2024-09-23 12:01:03.151 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" started.
+2024-09-23 12:01:03.156 +07:00 [DBG] Connection 0HN6RHIPQOS1K established using the following protocol: "Tls13"
+2024-09-23 12:01:03.158 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7169/api/Appointment - application/json-patch+json 230
+2024-09-23 12:01:03.161 +07:00 [DBG] POST requests are not supported
+2024-09-23 12:01:03.190 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-09-23 12:01:03.192 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-09-23 12:01:03.199 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:01:03.259 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-23 12:01:03.263 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:01:03.299 +07:00 [INF] Route matched with {action = "Add", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(CityInfo.API.Models.AppointmentModelForAdd) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-09-23 12:01:03.301 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-23 12:01:03.302 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-23 12:01:03.303 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 12:01:03.304 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-23 12:01:03.305 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 12:01:03.307 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 12:01:03.443 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-23 12:01:03.468 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 12:01:03.473 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 12:01:03.477 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' using the name '' in request data ...
+2024-09-23 12:01:03.481 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 12:01:03.482 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 12:01:03.490 +07:00 [DBG] Connection id "0HN6RHIPQOS1K", Request id "0HN6RHIPQOS1K:00000001": started reading request body.
+2024-09-23 12:01:03.491 +07:00 [DBG] Connection id "0HN6RHIPQOS1K", Request id "0HN6RHIPQOS1K:00000001": done reading request body.
+2024-09-23 12:01:03.562 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:01:03.564 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:01:03.565 +07:00 [DBG] Attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 12:01:03.575 +07:00 [DBG] Done attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:01:04.058 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-23 12:01:04.109 +07:00 [DBG] Compiling query expression: 
+'DbSet<Patient>()
+    .SingleOrDefault(pt => pt.PatientId == __appointment_PatientId_0)'
+2024-09-23 12:01:04.259 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Patient.PatientId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Patient.Avatar (string) Required MaxLength(255), 1], [Property: Patient.Date (DateTime) Required, 2], [Property: Patient.Diseases (string) Required MaxLength(500), 3], [Property: Patient.Email (string) Required MaxLength(100), 4], [Property: Patient.FullName (string) Required MaxLength(100), 5], [Property: Patient.Gender (string) Required, 6], [Property: Patient.Location (string) Required MaxLength(255), 7], [Property: Patient.PaymentId (Guid) Required FK Index, 8], [Property: Patient.PhoneNumber (string) Required MaxLength(15), 9], [Property: Patient.Status (string) Required, 10] }
+        SELECT TOP(2) p.PatientId, p.Avatar, p.Date, p.Diseases, p.Email, p.FullName, p.Gender, p.Location, p.PaymentId, p.PhoneNumber, p.Status
+        FROM Patient AS p
+        WHERE p.PatientId == @__appointment_PatientId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Patient>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 12:01:04.283 +07:00 [DBG] Creating DbConnection.
+2024-09-23 12:01:04.303 +07:00 [DBG] Created DbConnection. (20ms).
+2024-09-23 12:01:04.306 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.585 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.588 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:01:04.592 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-09-23 12:01:04.600 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2024-09-23 12:01:04.608 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 12:01:04.691 +07:00 [INF] Executed DbCommand (85ms) [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 12:01:04.722 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:04.747 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.753 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 57ms reading results.
+2024-09-23 12:01:04.756 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.761 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (4ms).
+2024-09-23 12:01:04.763 +07:00 [DBG] Compiling query expression: 
+'DbSet<Doctor>()
+    .SingleOrDefault(dt => dt.DoctorId == __appointment_DoctorId_0)'
+2024-09-23 12:01:04.769 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Doctor>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Doctor.DoctorId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Doctor.DoctorDepartment (string) Required, 1], [Property: Doctor.DoctorName (string) Required, 2] }
+        SELECT TOP(2) d.DoctorId, d.DoctorDepartment, d.DoctorName
+        FROM Doctor AS d
+        WHERE d.DoctorId == @__appointment_DoctorId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Doctor>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 12:01:04.771 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.773 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.774 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:01:04.774 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 12:01:04.775 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-09-23 12:01:04.775 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 12:01:04.783 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 12:01:04.788 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Doctor' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:04.792 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.793 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 8ms reading results.
+2024-09-23 12:01:04.794 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:04.795 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-09-23 12:01:08.218 +07:00 [DBG] 'DoctorManagementContext' generated a value for the property 'Appointment.AppointmentId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:08.235 +07:00 [DBG] The navigation 'Appointment.Doctor' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:08.244 +07:00 [DBG] The navigation 'Appointment.Patient' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:08.248 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Appointment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:08.251 +07:00 [DBG] SaveChanges starting for 'DoctorManagementContext'.
+2024-09-23 12:01:08.254 +07:00 [DBG] DetectChanges starting for 'DoctorManagementContext'.
+2024-09-23 12:01:08.268 +07:00 [DBG] DetectChanges completed for 'DoctorManagementContext'.
+2024-09-23 12:01:08.315 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:08.318 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:08.322 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:01:08.323 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 12:01:08.324 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 12:01:08.325 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 12:01:08.367 +07:00 [INF] Executed DbCommand (42ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 12:01:08.372 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:08.374 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 4ms reading results.
+2024-09-23 12:01:08.376 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:08.377 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-23 12:01:08.383 +07:00 [DBG] An entity of type 'Appointment' tracked by 'DoctorManagementContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:01:08.385 +07:00 [DBG] SaveChanges completed for 'DoctorManagementContext' with 1 entities written to the database.
+2024-09-23 12:01:08.390 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-09-23 12:01:08.393 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-23 12:01:08.393 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-23 12:01:08.393 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-23 12:01:08.394 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-23 12:01:08.395 +07:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:01:08.421 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API) in 5113.3024ms
+2024-09-23 12:01:08.422 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:01:08.426 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-23 12:01:08.429 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:01:08.431 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-09-23 12:01:08.432 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7169/api/Appointment - 200 209 application/json; charset=utf-8 5274.2496ms
+2024-09-23 12:01:12.290 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" received FIN.
+2024-09-23 12:01:12.292 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" is closed. The last processed stream ID was 1.
+2024-09-23 12:01:12.293 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 12:01:12.295 +07:00 [DBG] The connection queue processing loop for 0HN6RHIPQOS1K completed.
+2024-09-23 12:01:12.296 +07:00 [DBG] Connection id "0HN6RHIPQOS1K" stopped.
+2024-09-23 12:28:12.666 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-23 12:28:12.776 +07:00 [DBG] Hosting starting
+2024-09-23 12:28:12.812 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-23 12:28:12.822 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-09-23 12:28:12.834 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-09-23 12:28:12.839 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-09-23 12:28:12.844 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-09-23 12:28:12.850 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-09-23 12:28:12.853 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 12:28:12.855 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-23 12:28:12.856 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 12:28:12.861 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-23 12:28:12.862 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-23 12:28:12.864 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-09-23 12:28:12.864 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-09-23 12:28:13.080 +07:00 [INF] Now listening on: https://localhost:7169
+2024-09-23 12:28:13.081 +07:00 [INF] Now listening on: http://localhost:5169
+2024-09-23 12:28:13.081 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-09-23 12:28:13.082 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-23 12:28:13.082 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-23 12:28:13.083 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-23 12:28:13.138 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 12:28:13.138 +07:00 [INF] Hosting environment: Development
+2024-09-23 12:28:13.139 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API
+2024-09-23 12:28:13.139 +07:00 [DBG] Hosting started
+2024-09-23 12:28:19.190 +07:00 [DBG] Connection id "0HN6RI2488583" accepted.
+2024-09-23 12:28:19.192 +07:00 [DBG] Connection id "0HN6RI2488583" started.
+2024-09-23 12:28:19.273 +07:00 [DBG] Connection 0HN6RI2488583 established using the following protocol: "Tls13"
+2024-09-23 12:28:19.311 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/index.html - null null
+2024-09-23 12:28:19.435 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-23 12:28:19.488 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-23 12:28:19.490 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-23 12:28:19.502 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-23 12:28:19.503 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-23 12:28:19.506 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/index.html - 200 null text/html;charset=utf-8 198.3422ms
+2024-09-23 12:28:19.628 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_vs/browserLink - null null
+2024-09-23 12:28:19.628 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-23 12:28:19.643 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 15.6634ms
+2024-09-23 12:28:19.675 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.777ms
+2024-09-23 12:28:19.888 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - null null
+2024-09-23 12:28:20.030 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.187ms
+2024-09-23 12:28:22.164 +07:00 [DBG] Connection id "0HN6RI2488583" received FIN.
+2024-09-23 12:28:22.168 +07:00 [DBG] The connection queue processing loop for 0HN6RI2488583 completed.
+2024-09-23 12:28:22.168 +07:00 [DBG] Connection id "0HN6RI2488583" is closed. The last processed stream ID was 7.
+2024-09-23 12:28:22.169 +07:00 [DBG] Connection id "0HN6RI2488583" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 12:28:22.176 +07:00 [DBG] Connection id "0HN6RI2488583" stopped.
+2024-09-23 12:28:24.843 +07:00 [DBG] Connection id "0HN6RI2488584" accepted.
+2024-09-23 12:28:24.844 +07:00 [DBG] Connection id "0HN6RI2488584" started.
+2024-09-23 12:28:24.853 +07:00 [DBG] Connection 0HN6RI2488584 established using the following protocol: "Tls13"
+2024-09-23 12:28:24.857 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7169/api/Appointment - application/json-patch+json 230
+2024-09-23 12:28:24.860 +07:00 [DBG] POST requests are not supported
+2024-09-23 12:28:24.898 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-09-23 12:28:24.900 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-09-23 12:28:24.908 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:28:24.979 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-23 12:28:24.984 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:28:25.029 +07:00 [INF] Route matched with {action = "Add", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(CityInfo.API.Models.AppointmentModelForAdd) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-09-23 12:28:25.032 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-23 12:28:25.033 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-23 12:28:25.035 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 12:28:25.036 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-23 12:28:25.037 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 12:28:25.040 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 12:28:25.188 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-23 12:28:25.209 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 12:28:25.214 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 12:28:25.217 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' using the name '' in request data ...
+2024-09-23 12:28:25.220 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 12:28:25.220 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 12:28:25.228 +07:00 [DBG] Connection id "0HN6RI2488584", Request id "0HN6RI2488584:00000001": started reading request body.
+2024-09-23 12:28:25.230 +07:00 [DBG] Connection id "0HN6RI2488584", Request id "0HN6RI2488584:00000001": done reading request body.
+2024-09-23 12:28:25.307 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:28:25.308 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:28:25.309 +07:00 [DBG] Attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 12:28:25.316 +07:00 [DBG] Done attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:28:25.841 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-23 12:28:25.900 +07:00 [DBG] Compiling query expression: 
+'DbSet<Patient>()
+    .SingleOrDefault(pt => pt.PatientId == __appointment_PatientId_0)'
+2024-09-23 12:28:26.081 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Patient.PatientId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Patient.Avatar (string) Required MaxLength(255), 1], [Property: Patient.Date (DateTime) Required, 2], [Property: Patient.Diseases (string) Required MaxLength(500), 3], [Property: Patient.Email (string) Required MaxLength(100), 4], [Property: Patient.FullName (string) Required MaxLength(100), 5], [Property: Patient.Gender (string) Required, 6], [Property: Patient.Location (string) Required MaxLength(255), 7], [Property: Patient.PaymentId (Guid) Required FK Index, 8], [Property: Patient.PhoneNumber (string) Required MaxLength(15), 9], [Property: Patient.Status (string) Required, 10] }
+        SELECT TOP(2) p.PatientId, p.Avatar, p.Date, p.Diseases, p.Email, p.FullName, p.Gender, p.Location, p.PaymentId, p.PhoneNumber, p.Status
+        FROM Patient AS p
+        WHERE p.PatientId == @__appointment_PatientId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Patient>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 12:28:26.154 +07:00 [DBG] Creating DbConnection.
+2024-09-23 12:28:26.178 +07:00 [DBG] Created DbConnection. (69ms).
+2024-09-23 12:28:26.181 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.568 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.572 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:28:26.577 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2024-09-23 12:28:26.586 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-09-23 12:28:26.595 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 12:28:26.746 +07:00 [INF] Executed DbCommand (153ms) [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 12:28:26.784 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:26.814 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.822 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 69ms reading results.
+2024-09-23 12:28:26.825 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.832 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (6ms).
+2024-09-23 12:28:26.834 +07:00 [DBG] Compiling query expression: 
+'DbSet<Doctor>()
+    .SingleOrDefault(dt => dt.DoctorId == __appointment_DoctorId_0)'
+2024-09-23 12:28:26.839 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Doctor>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Doctor.DoctorId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Doctor.DoctorDepartment (string) Required, 1], [Property: Doctor.DoctorName (string) Required, 2] }
+        SELECT TOP(2) d.DoctorId, d.DoctorDepartment, d.DoctorName
+        FROM Doctor AS d
+        WHERE d.DoctorId == @__appointment_DoctorId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Doctor>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 12:28:26.842 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.844 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.845 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:28:26.845 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 12:28:26.850 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 12:28:26.851 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 12:28:26.891 +07:00 [INF] Executed DbCommand (39ms) [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 12:28:26.896 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Doctor' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:26.901 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.902 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 9ms reading results.
+2024-09-23 12:28:26.903 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:26.903 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-09-23 12:28:30.547 +07:00 [DBG] 'DoctorManagementContext' generated a value for the property 'Appointment.AppointmentId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:30.570 +07:00 [DBG] The navigation 'Appointment.Doctor' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:30.582 +07:00 [DBG] The navigation 'Appointment.Patient' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:30.587 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Appointment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:30.591 +07:00 [DBG] SaveChanges starting for 'DoctorManagementContext'.
+2024-09-23 12:28:30.594 +07:00 [DBG] DetectChanges starting for 'DoctorManagementContext'.
+2024-09-23 12:28:30.613 +07:00 [DBG] DetectChanges completed for 'DoctorManagementContext'.
+2024-09-23 12:28:30.698 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:30.703 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:30.711 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 12:28:30.712 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-23 12:28:30.713 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 12:28:30.717 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 12:28:30.795 +07:00 [INF] Executed DbCommand (79ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 12:28:30.800 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:30.802 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 5ms reading results.
+2024-09-23 12:28:30.806 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:30.807 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-09-23 12:28:30.814 +07:00 [DBG] An entity of type 'Appointment' tracked by 'DoctorManagementContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 12:28:30.817 +07:00 [DBG] SaveChanges completed for 'DoctorManagementContext' with 1 entities written to the database.
+2024-09-23 12:28:30.828 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-09-23 12:28:30.847 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-23 12:28:30.847 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-23 12:28:30.848 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-23 12:28:30.850 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-23 12:28:30.851 +07:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 12:28:31.093 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API) in 6052.6957ms
+2024-09-23 12:28:31.095 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 12:28:31.115 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-23 12:28:31.118 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 12:28:31.122 +07:00 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-09-23 12:28:31.133 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7169/api/Appointment - 200 209 application/json; charset=utf-8 6274.4476ms
+2024-09-23 12:28:32.168 +07:00 [DBG] Connection id "0HN6RI2488584" received FIN.
+2024-09-23 12:28:32.169 +07:00 [DBG] Connection id "0HN6RI2488584" is closed. The last processed stream ID was 1.
+2024-09-23 12:28:32.169 +07:00 [DBG] The connection queue processing loop for 0HN6RI2488584 completed.
+2024-09-23 12:28:32.170 +07:00 [DBG] Connection id "0HN6RI2488584" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 12:28:32.173 +07:00 [DBG] Connection id "0HN6RI2488584" stopped.
+2024-09-23 13:51:21.110 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-23 13:51:21.232 +07:00 [DBG] Hosting starting
+2024-09-23 13:51:21.266 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-23 13:51:21.278 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-09-23 13:51:21.287 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-09-23 13:51:21.291 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-09-23 13:51:21.296 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-09-23 13:51:21.302 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-09-23 13:51:21.308 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 13:51:21.312 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-23 13:51:21.315 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-23 13:51:21.322 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-23 13:51:21.326 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-23 13:51:21.330 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-09-23 13:51:21.332 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-09-23 13:51:21.565 +07:00 [INF] Now listening on: https://localhost:7169
+2024-09-23 13:51:21.569 +07:00 [INF] Now listening on: http://localhost:5169
+2024-09-23 13:51:21.575 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-09-23 13:51:21.578 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-23 13:51:21.581 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-23 13:51:21.583 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-23 13:51:21.642 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-23 13:51:21.644 +07:00 [INF] Hosting environment: Development
+2024-09-23 13:51:21.647 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\CityInfo.API
+2024-09-23 13:51:21.650 +07:00 [DBG] Hosting started
+2024-09-23 13:52:26.799 +07:00 [DBG] Connection id "0HN6RJH4I00D6" accepted.
+2024-09-23 13:52:26.802 +07:00 [DBG] Connection id "0HN6RJH4I00D6" started.
+2024-09-23 13:52:26.903 +07:00 [DBG] Connection 0HN6RJH4I00D6 established using the following protocol: "Tls13"
+2024-09-23 13:52:26.979 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-23 13:52:26.979 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/_vs/browserLink - null null
+2024-09-23 13:52:27.026 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 55.2396ms
+2024-09-23 13:52:27.162 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.776ms
+2024-09-23 13:52:27.425 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - null null
+2024-09-23 13:52:27.435 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-23 13:52:27.662 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 237.8626ms
+2024-09-23 13:53:37.600 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7169/api/Appointment - application/json-patch+json 230
+2024-09-23 13:53:37.620 +07:00 [DBG] POST requests are not supported
+2024-09-23 13:53:37.651 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-09-23 13:53:37.656 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-09-23 13:53:37.669 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 13:53:37.758 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-23 13:53:37.765 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 13:53:37.809 +07:00 [INF] Route matched with {action = "Add", controller = "Appointment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(CityInfo.API.Models.AppointmentModelForAdd) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-09-23 13:53:37.819 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-23 13:53:37.821 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-23 13:53:37.823 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 13:53:37.832 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-23 13:53:37.840 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-09-23 13:53:37.853 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 13:53:38.044 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-23 13:53:38.069 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-09-23 13:53:38.079 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 13:53:38.084 +07:00 [DBG] Attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' using the name '' in request data ...
+2024-09-23 13:53:38.090 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 13:53:38.093 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-09-23 13:53:38.105 +07:00 [DBG] Connection id "0HN6RJH4I00D6", Request id "0HN6RJH4I00D6:00000007": started reading request body.
+2024-09-23 13:53:38.109 +07:00 [DBG] Connection id "0HN6RJH4I00D6", Request id "0HN6RJH4I00D6:00000007": done reading request body.
+2024-09-23 13:53:38.209 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 13:53:38.213 +07:00 [DBG] Done attempting to bind parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 13:53:38.219 +07:00 [DBG] Attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd' ...
+2024-09-23 13:53:38.231 +07:00 [DBG] Done attempting to validate the bound parameter 'appointment' of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 13:53:39.060 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-23 13:53:39.146 +07:00 [DBG] Compiling query expression: 
+'DbSet<Patient>()
+    .SingleOrDefault(pt => pt.PatientId == __appointment_PatientId_0)'
+2024-09-23 13:53:39.368 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Patient.PatientId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Patient.Avatar (string) Required MaxLength(255), 1], [Property: Patient.Date (DateTime) Required, 2], [Property: Patient.Diseases (string) Required MaxLength(500), 3], [Property: Patient.Email (string) Required MaxLength(100), 4], [Property: Patient.FullName (string) Required MaxLength(100), 5], [Property: Patient.Gender (string) Required, 6], [Property: Patient.Location (string) Required MaxLength(255), 7], [Property: Patient.PaymentId (Guid) Required FK Index, 8], [Property: Patient.PhoneNumber (string) Required MaxLength(15), 9], [Property: Patient.Status (string) Required, 10] }
+        SELECT TOP(2) p.PatientId, p.Avatar, p.Date, p.Diseases, p.Email, p.FullName, p.Gender, p.Location, p.PaymentId, p.PhoneNumber, p.Status
+        FROM Patient AS p
+        WHERE p.PatientId == @__appointment_PatientId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Patient>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 13:53:39.418 +07:00 [DBG] Creating DbConnection.
+2024-09-23 13:53:39.456 +07:00 [DBG] Created DbConnection. (37ms).
+2024-09-23 13:53:39.463 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:39.869 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:39.876 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 13:53:39.886 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2024-09-23 13:53:39.896 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (21ms).
+2024-09-23 13:53:39.907 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 13:53:39.957 +07:00 [INF] Executed DbCommand (53ms) [Parameters=[@__appointment_PatientId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[PatientId], [p].[Avatar], [p].[Date], [p].[Diseases], [p].[Email], [p].[FullName], [p].[Gender], [p].[Location], [p].[PaymentId], [p].[PhoneNumber], [p].[Status]
+FROM [Patient] AS [p]
+WHERE [p].[PatientId] = @__appointment_PatientId_0
+2024-09-23 13:53:40.007 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:40.044 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.060 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 93ms reading results.
+2024-09-23 13:53:40.069 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.080 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (11ms).
+2024-09-23 13:53:40.089 +07:00 [DBG] Compiling query expression: 
+'DbSet<Doctor>()
+    .SingleOrDefault(dt => dt.DoctorId == __appointment_DoctorId_0)'
+2024-09-23 13:53:40.099 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Doctor>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Doctor.DoctorId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Doctor.DoctorDepartment (string) Required, 1], [Property: Doctor.DoctorName (string) Required, 2] }
+        SELECT TOP(2) d.DoctorId, d.DoctorDepartment, d.DoctorName
+        FROM Doctor AS d
+        WHERE d.DoctorId == @__appointment_DoctorId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Doctor>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-09-23 13:53:40.103 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.111 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.112 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 13:53:40.113 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-09-23 13:53:40.115 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 13:53:40.118 +07:00 [DBG] Executing DbCommand [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 13:53:40.132 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@__appointment_DoctorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [d].[DoctorId], [d].[DoctorDepartment], [d].[DoctorName]
+FROM [Doctor] AS [d]
+WHERE [d].[DoctorId] = @__appointment_DoctorId_0
+2024-09-23 13:53:40.140 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Doctor' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:40.147 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.152 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 16ms reading results.
+2024-09-23 13:53:40.154 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:40.155 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-09-23 13:53:44.690 +07:00 [DBG] 'DoctorManagementContext' generated a value for the property 'Appointment.AppointmentId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:44.721 +07:00 [DBG] The navigation 'Appointment.Doctor' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:44.738 +07:00 [DBG] The navigation 'Appointment.Patient' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:44.748 +07:00 [DBG] Context 'DoctorManagementContext' started tracking 'Appointment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:44.760 +07:00 [DBG] SaveChanges starting for 'DoctorManagementContext'.
+2024-09-23 13:53:44.766 +07:00 [DBG] DetectChanges starting for 'DoctorManagementContext'.
+2024-09-23 13:53:44.788 +07:00 [DBG] DetectChanges completed for 'DoctorManagementContext'.
+2024-09-23 13:53:44.867 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:44.872 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:44.880 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-23 13:53:44.882 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-09-23 13:53:44.886 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-09-23 13:53:44.888 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 13:53:44.921 +07:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 50), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Appointment] ([AppointmentId], [AppointmentComment], [AppointmentStatus], [AppointmentTime], [DoctorId], [PatientId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-23 13:53:44.928 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:44.931 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 7ms reading results.
+2024-09-23 13:53:44.938 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:44.940 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-09-23 13:53:44.947 +07:00 [DBG] An entity of type 'Appointment' tracked by 'DoctorManagementContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-23 13:53:44.954 +07:00 [DBG] SaveChanges completed for 'DoctorManagementContext' with 1 entities written to the database.
+2024-09-23 13:53:44.967 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-09-23 13:53:44.977 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-09-23 13:53:44.981 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-23 13:53:44.982 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-23 13:53:44.984 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-23 13:53:44.985 +07:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.AppointmentModelForAdd'.
+2024-09-23 13:53:45.029 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API) in 7176.0219ms
+2024-09-23 13:53:45.034 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.Add (CityInfo.API)'
+2024-09-23 13:53:45.042 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-09-23 13:53:45.050 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-09-23 13:53:45.057 +07:00 [DBG] Disposed connection to database '' on server '' (6ms).
+2024-09-23 13:53:45.063 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7169/api/Appointment - 200 207 application/json; charset=utf-8 7462.6906ms
+2024-09-23 14:03:51.939 +07:00 [DBG] Connection id "0HN6RJH4I00D6" received FIN.
+2024-09-23 14:03:51.969 +07:00 [DBG] Connection id "0HN6RJH4I00D6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-23 14:03:51.970 +07:00 [DBG] Connection id "0HN6RJH4I00D6" is closed. The last processed stream ID was 7.
+2024-09-23 14:03:51.973 +07:00 [DBG] The connection queue processing loop for 0HN6RJH4I00D6 completed.
+2024-09-23 14:03:51.981 +07:00 [DBG] Connection id "0HN6RJH4I00D6" stopped.

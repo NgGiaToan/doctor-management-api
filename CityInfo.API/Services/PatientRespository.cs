@@ -12,19 +12,19 @@ namespace CityInfo.API.Services
     {
         private readonly DoctorManagementContext _context;
 
-        public static int PAGE_SIZE { get; set; } = 5;
         public PatientRespository(DoctorManagementContext context) 
         {
             _context = context;
         }
-        public List<PatientModel> GetAll(string search, string sortBy, int page =1, int page_size = 5)
+        public static int PAGE_SIZE { get; set; } = 5;
+        public List<PatientVM> GetAll(string search, string sortBy, int page =1, int page_size = 5)
         {
-            var allPatient = _context.Patients.AsQueryable();
+            var allPatient = _context.Patients.Include(pt => pt.Payment).AsQueryable();
 
             #region Filtering
             if (!string.IsNullOrWhiteSpace(search))
             {
-                allPatient = allPatient.Where(pt => pt.FullName.Contains(search));
+                allPatient = allPatient.Where(pt => pt.FullName.Contains(search) || pt.PatientId.ToString().Contains(search));
             }
             #endregion
 
@@ -47,21 +47,29 @@ namespace CityInfo.API.Services
             {
                 PAGE_SIZE = page_size;
             }
-            allPatient = allPatient.Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE);
-            #endregion
-            var result = allPatient.Select(pt => new PatientModel
+            if (PAGE_SIZE != 0)
             {
+                allPatient = allPatient.Skip((page - 1) * PAGE_SIZE).Take(PAGE_SIZE);
+            }
+            #endregion
+
+            var result = allPatient.Select(pt => new PatientVM
+            {
+                PatientId = pt.PatientId,
                 Status = pt.Status,
                 Gender = pt.Gender,
                 Avatar = pt.Avatar,
                 FullName = pt.FullName,
                 Date = pt.Date,
+                Time = pt.Time,
                 Location = pt.Location,
                 Email = pt.Email,
                 PhoneNumber = pt.PhoneNumber,
                 Diseases = pt.Diseases,
-                PaymentId = pt.PaymentId
-
+                PaymentId = pt.PaymentId,
+                PaymentName = pt.Payment.PaymentName,
+                Age = DateTime.Now.Year - pt.Date.Year -
+                    (DateTime.Now < pt.Date.AddYears(DateTime.Now.Year - pt.Date.Year) ? 1 : 0)
             });
 
             return result.ToList();
@@ -99,11 +107,14 @@ namespace CityInfo.API.Services
                     Avatar =patient.Avatar,
                     FullName = patient.FullName,
                     Date = patient.Date,
+                    Time = patient.Time,
                     Location = patient.Location,
                     Email = patient.Email,
                     PhoneNumber = patient.PhoneNumber,
                     Diseases = patient.Diseases,
-                    PaymentId = patient.PaymentId
+                    PaymentId = patient.PaymentId,
+                    Age = DateTime.Now.Year - patient.Date.Year -
+                        (DateTime.Now < patient.Date.AddYears(DateTime.Now.Year - patient.Date.Year) ? 1 : 0)
                 };
             }
             return null;
@@ -120,6 +131,7 @@ namespace CityInfo.API.Services
                 _patient.Avatar = patient.Avatar;
                 _patient.FullName = patient.FullName;
                 _patient.Date = patient.Date;
+                _patient.Time = patient.Time;
                 _patient.Location = patient.Location;
                 _patient.Email = patient.Email;
                 _patient.PhoneNumber = patient.PhoneNumber;
@@ -136,15 +148,16 @@ namespace CityInfo.API.Services
         {
             var _patient = new  Patient
             {
-                Status = patient.Status,
-                Gender = patient.Gender,
-                Avatar = patient.Avatar,
-                FullName = patient.FullName,
+                Status = patient.Status ?? "",
+                Gender = patient.Gender ?? "",
+                Avatar = patient.Avatar ?? "",
+                FullName = patient.FullName ?? "",
                 Date = patient.Date,
-                Location = patient.Location,
-                Email = patient.Email,
-                PhoneNumber = patient.PhoneNumber,
-                Diseases = patient.Diseases,
+                Time = patient.Time,
+                Location = patient.Location ?? "",
+                Email = patient.Email ?? "",
+                PhoneNumber = patient.PhoneNumber ?? "",
+                Diseases = patient.Diseases ?? "",
                 PaymentId = patient.PaymentId
             };
             _context.Add(_patient);
@@ -157,6 +170,7 @@ namespace CityInfo.API.Services
                 Avatar = patient.Avatar,
                 FullName = patient.FullName,
                 Date = patient.Date,
+                Time = patient.Time,
                 Location = patient.Location,
                 Email = patient.Email,
                 PhoneNumber = patient.PhoneNumber,
@@ -174,5 +188,25 @@ namespace CityInfo.API.Services
                 _context.SaveChanges();
             }
         }
+
+        public Dictionary<string, int> PatientChart(int n)
+        {
+            var allPatient = _context.Patients.AsQueryable();
+            var patientBefore = allPatient.Where(p => p.Time.Year < n).ToList();
+            var patientInYear = allPatient.Where(p => p.Time.Year == n).ToList();
+            var maleCount = patientInYear.Where(p => p.Gender == "Male").ToList();
+            var femaleCount = patientInYear.Where(p => p.Gender == "Female").ToList();
+            var childCount = patientInYear.Where(p => p.Gender == "Child").ToList();
+
+            return new Dictionary<string, int>
+            {
+                { "total", allPatient.Count() },
+                { "beforeYear", patientBefore.Count() },
+                { "inYear", patientInYear.Count() },
+                { "maleCount", maleCount.Count() },
+                { "femaleCount", femaleCount.Count() },
+                { "childCount", childCount.Count() }
+            };
+        } 
     }
 }

@@ -90,6 +90,8 @@ builder.Services.AddScoped<IAppointmentRespository, AppointmentRespository>();
 
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 
+builder.Services.AddScoped<IDoctorRespository, DoctorRespository>();
+
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -126,8 +128,20 @@ builder.Services.AddApiVersioning(setupAction =>
 });
 
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000") 
+               .AllowAnyMethod()   
+               .AllowAnyHeader(); 
+    });
+});
+
 
 var app = builder.Build();
+
+app.UseCors("AllowFrontend");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

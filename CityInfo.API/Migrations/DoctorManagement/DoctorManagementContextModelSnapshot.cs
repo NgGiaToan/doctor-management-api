@@ -24,26 +24,62 @@ namespace CityInfo.API.Migrations.DoctorManagement
 
             modelBuilder.Entity("CityInfo.API.DbContexts.Appointment", b =>
                 {
-                    b.Property<Guid>("AppoitmentId")
+                    b.Property<Guid>("AppointmentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("AppoitmentStatus")
+                    b.Property<string>("AppointmentComment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppointmentConfirmed")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppointmentStatus")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateTime>("AppoitmentTime")
+                    b.Property<DateTime>("AppointmentTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<Guid>("DoctorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("AppoitmentId");
+                    b.Property<string>("PatientStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AppointmentId");
+
+                    b.HasIndex("DoctorId");
 
                     b.HasIndex("PatientId");
 
                     b.ToTable("Appointment", (string)null);
+                });
+
+            modelBuilder.Entity("CityInfo.API.DbContexts.Doctor", b =>
+                {
+                    b.Property<Guid>("DoctorId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("DoctorDepartment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoctorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DoctorId");
+
+                    b.ToTable("Doctor", (string)null);
                 });
 
             modelBuilder.Entity("CityInfo.API.DbContexts.Patient", b =>
@@ -96,6 +132,9 @@ namespace CityInfo.API.Migrations.DoctorManagement
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("PatientId");
 
                     b.HasIndex("PaymentId");
@@ -121,12 +160,21 @@ namespace CityInfo.API.Migrations.DoctorManagement
 
             modelBuilder.Entity("CityInfo.API.DbContexts.Appointment", b =>
                 {
+                    b.HasOne("CityInfo.API.DbContexts.Doctor", "Doctor")
+                        .WithMany("Appointments")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_Doctor_Appoitment");
+
                     b.HasOne("CityInfo.API.DbContexts.Patient", "Patient")
                         .WithMany("Appointments")
                         .HasForeignKey("PatientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("FK_Patient_Appoitment");
+
+                    b.Navigation("Doctor");
 
                     b.Navigation("Patient");
                 });
@@ -141,6 +189,11 @@ namespace CityInfo.API.Migrations.DoctorManagement
                         .HasConstraintName("FK_Patient_Payment");
 
                     b.Navigation("Payment");
+                });
+
+            modelBuilder.Entity("CityInfo.API.DbContexts.Doctor", b =>
+                {
+                    b.Navigation("Appointments");
                 });
 
             modelBuilder.Entity("CityInfo.API.DbContexts.Patient", b =>

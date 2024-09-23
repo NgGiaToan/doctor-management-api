@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\wwwroot\\images\\checkmark.png",
+      "PackagePath": "staticwebassets\\images\\checkmark.png"
+    },
+    {
+      "Id": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\wwwroot\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\wwwroot\\images\\telephone-call.png",
+      "PackagePath": "staticwebassets\\images\\telephone-call.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CityInfo.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CityInfo.API.props",
+      "PackagePath": "build\\CityInfo.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CityInfo.API.props",
+      "PackagePath": "buildMultiTargeting\\CityInfo.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CityInfo.API.props",
+      "PackagePath": "buildTransitive\\CityInfo.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

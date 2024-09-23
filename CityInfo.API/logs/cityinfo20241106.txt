@@ -1,0 +1,1244 @@
+2024-11-06 13:59:31.790 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-06 13:59:31.877 +07:00 [DBG] Hosting starting
+2024-11-06 13:59:31.900 +07:00 [INF] User profile is available. Using 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-06 13:59:31.906 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-401a87b9-185b-4ae6-b430-e2cba568700e.xml'.
+2024-11-06 13:59:31.916 +07:00 [DBG] Reading data from file 'C:\Users\giato\AppData\Local\ASP.NET\DataProtection-Keys\key-74288969-9a33-424a-9467-b5621ad6023e.xml'.
+2024-11-06 13:59:31.921 +07:00 [DBG] Found key {401a87b9-185b-4ae6-b430-e2cba568700e}.
+2024-11-06 13:59:31.928 +07:00 [DBG] Found key {74288969-9a33-424a-9467-b5621ad6023e}.
+2024-11-06 13:59:31.934 +07:00 [DBG] Considering key {74288969-9a33-424a-9467-b5621ad6023e} with expiration date 2024-11-14 09:41:20Z as default key.
+2024-11-06 13:59:31.938 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 13:59:31.940 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-11-06 13:59:31.943 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-11-06 13:59:31.947 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-11-06 13:59:31.949 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-11-06 13:59:31.951 +07:00 [DBG] Using key {74288969-9a33-424a-9467-b5621ad6023e} as the default key.
+2024-11-06 13:59:31.953 +07:00 [DBG] Key ring with default key {74288969-9a33-424a-9467-b5621ad6023e} was loaded during application startup.
+2024-11-06 13:59:32.103 +07:00 [INF] Now listening on: https://localhost:7169
+2024-11-06 13:59:32.104 +07:00 [INF] Now listening on: http://localhost:5169
+2024-11-06 13:59:32.105 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-11-06 13:59:32.105 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-06 13:59:32.106 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-06 13:59:32.107 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-06 13:59:32.168 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-06 13:59:32.169 +07:00 [INF] Hosting environment: Development
+2024-11-06 13:59:32.170 +07:00 [INF] Content root path: C:\Users\giato\Downloads\Workspace\.Net\api\CityInfo.API
+2024-11-06 13:59:32.170 +07:00 [DBG] Hosting started
+2024-11-06 16:01:17.443 +07:00 [DBG] Connection id "0HN7U869HR51C" accepted.
+2024-11-06 16:01:17.456 +07:00 [DBG] Connection id "0HN7U869HR51C" started.
+2024-11-06 16:01:17.597 +07:00 [DBG] Connection 0HN7U869HR51C established using the following protocol: "Tls13"
+2024-11-06 16:01:17.681 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:01:17.695 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-06 16:01:17.706 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:01:17.710 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:01:17.777 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:01:17.804 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:01:17.807 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:01:17.818 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:17.878 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:01:17.882 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:17.909 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:01:17.911 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:01:17.912 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:01:17.913 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:17.914 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:01:17.915 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:17.918 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:18.050 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-06 16:01:18.075 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:18.080 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:18.082 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:18.084 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.085 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.086 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.087 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:18.090 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.093 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:18.094 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:18.095 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.096 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.096 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.097 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:18.098 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.098 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:18.099 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:01:18.100 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.101 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.102 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:18.103 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.104 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:18.105 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:01:18.106 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.107 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.108 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:18.108 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.281 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:01:18.283 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:01:18.283 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:01:18.285 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:01:18.286 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:01:18.287 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:01:18.288 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:18.289 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:01:18.290 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:18.291 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:01:18.293 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:01:18.294 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:01:18.295 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:18.296 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:01:18.297 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:18.299 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:18.301 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:18.308 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:18.309 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:18.310 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.311 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.311 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.312 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:18.312 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:01:18.313 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:18.314 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:18.314 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.315 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.315 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.316 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:18.316 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:18.317 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:18.318 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:01:18.319 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.319 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.320 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:18.320 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:18.321 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:18.322 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:01:18.322 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.324 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.325 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:18.325 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:18.674 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:01:18.674 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:01:18.742 +07:00 [DBG] Compiling query expression: 
+'DbSet<Appointment>()
+    .OrderBy(pt => pt.AppointmentTime)
+    .Skip(__p_0)
+    .Take(__p_1)
+    .Select(ap => new AppointmentModel{ 
+        AppointmentTime = ap.AppointmentTime, 
+        AppointmentStatus = ap.AppointmentStatus, 
+        AppointmentComment = ap.AppointmentComment, 
+        PatientId = ap.PatientId, 
+        DoctorId = ap.DoctorId, 
+        Gender = ap.Patient.Gender, 
+        Avatar = ap.Patient.Avatar, 
+        FullName = ap.Patient.FullName, 
+        Date = ap.Patient.Date, 
+        Age = DateTime.Now.Year - ap.Patient.Date.Year - DateTime.Now < ap.Patient.Date.AddYears(DateTime.Now.Year - ap.Patient.Date.Year) ? 1 : 0 
+    }
+    )'
+2024-11-06 16:01:18.930 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<AppointmentModel>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            AppointmentTime -> 0
+            AppointmentStatus -> 1
+            AppointmentComment -> 2
+            PatientId -> 3
+            DoctorId -> 4
+            Gender -> 5
+            Avatar -> 6
+            FullName -> 7
+            Date -> 8
+            Age -> 9
+        SELECT t.AppointmentTime, t.AppointmentStatus, t.AppointmentComment, t.PatientId, t.DoctorId, p.Gender, p.Avatar, p.FullName, p.Date, (DATEPART(year, GETDATE()) - DATEPART(year, p.Date)) - CASE
+            WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, p.Date) AS int), p.Date) THEN 1
+            ELSE 0
+        END AS Age
+        FROM 
+        (
+            SELECT a.AppointmentComment, a.AppointmentStatus, a.AppointmentTime, a.DoctorId, a.PatientId
+            FROM Appointment AS a
+            ORDER BY a.AppointmentTime ASC
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        INNER JOIN Patient AS p ON t.PatientId == p.PatientId
+        ORDER BY t.AppointmentTime ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppointmentModel>, 
+    CityInfo.API.DbContexts.DoctorManagementContext, 
+    False, 
+    False, 
+    True
+)'
+2024-11-06 16:01:18.958 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:01:18.958 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:01:18.978 +07:00 [DBG] Created DbConnection. (19ms).
+2024-11-06 16:01:18.978 +07:00 [DBG] Created DbConnection. (19ms).
+2024-11-06 16:01:18.981 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:18.981 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.083 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:01:19.085 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:01:19.086 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:01:19.092 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:01:19.093 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:01:19.093 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:01:19.094 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.101 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:01:19.102 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.104 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:01:19.105 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:01:19.106 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:01:19.107 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:19.108 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:01:19.109 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:19.110 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:19.113 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:19.114 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:19.115 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:19.116 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.117 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.118 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.118 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:19.119 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.120 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:19.120 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:19.121 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.122 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.122 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.123 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:19.124 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.125 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:19.125 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:01:19.126 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.127 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.128 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:19.128 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.129 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:19.130 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:01:19.131 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.131 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.132 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:19.132 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.183 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:01:19.185 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:01:19.186 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:01:19.186 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.401 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.403 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.404 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:01:19.404 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:01:19.405 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.406 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:01:19.410 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-11-06 16:01:19.410 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-11-06 16:01:19.410 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:01:19.416 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-11-06 16:01:19.416 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2024-11-06 16:01:19.416 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2024-11-06 16:01:19.424 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.424 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.424 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.518 +07:00 [INF] Executed DbCommand (94ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.518 +07:00 [INF] Executed DbCommand (95ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.518 +07:00 [INF] Executed DbCommand (95ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.531 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.531 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.531 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.538 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 14ms reading results.
+2024-11-06 16:01:19.538 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 12ms reading results.
+2024-11-06 16:01:19.538 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 13ms reading results.
+2024-11-06 16:01:19.540 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.540 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.540 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.547 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (5ms).
+2024-11-06 16:01:19.547 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (5ms).
+2024-11-06 16:01:19.547 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (5ms).
+2024-11-06 16:01:19.551 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:01:19.551 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:01:19.551 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:01:19.555 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:01:19.555 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:01:19.555 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:01:19.556 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:01:19.556 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:01:19.557 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:01:19.557 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:01:19.557 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:01:19.558 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:01:19.559 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:01:19.559 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:01:19.560 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:01:19.561 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:01:19.562 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:01:19.562 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:01:19.655 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 1354.3549ms
+2024-11-06 16:01:19.655 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 1736.8327ms
+2024-11-06 16:01:19.655 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 542.5862ms
+2024-11-06 16:01:19.657 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:01:19.658 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.658 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.658 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.660 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:01:19.661 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:01:19.662 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:01:19.662 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:01:19.662 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:01:19.662 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:01:19.662 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:01:19.665 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:01:19.666 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.667 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.667 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.667 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.667 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:01:19.669 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-06 16:01:19.669 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-06 16:01:19.669 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2024-11-06 16:01:19.669 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.670 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 1994.3223ms
+2024-11-06 16:01:19.670 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 587.5565ms
+2024-11-06 16:01:19.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 1390.3517ms
+2024-11-06 16:01:19.672 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:01:19.678 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:01:19.679 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:01:19.681 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:19.682 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:01:19.683 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:01:19.684 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:19.686 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:01:19.687 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:19.687 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:19.688 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.689 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.690 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.690 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:01:19.691 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:01:19.692 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:19.693 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:01:19.693 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.695 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.696 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.697 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:01:19.697 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:01:19.698 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:19.698 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:01:19.699 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.700 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.701 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:01:19.702 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:01:19.702 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:19.703 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:01:19.704 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.704 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.705 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:01:19.706 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:01:19.707 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:01:19.709 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:01:19.710 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:01:19.710 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.712 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.712 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:01:19.713 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:01:19.714 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:01:19.715 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.724 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:01:19.725 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.726 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:01:19.727 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.729 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-11-06 16:01:19.730 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:01:19.732 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:01:19.732 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:01:19.732 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:01:19.733 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:01:19.734 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:01:19.736 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 51.5267ms
+2024-11-06 16:01:19.737 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:01:19.738 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:01:19.739 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:01:19.739 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:01:19.741 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 83.9451ms
+2024-11-06 16:01:20.125 +07:00 [DBG] Connection id "0HN7U869HR51C" received FIN.
+2024-11-06 16:01:20.128 +07:00 [DBG] Connection id "0HN7U869HR51C" is closed. The last processed stream ID was 7.
+2024-11-06 16:01:20.128 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51C completed.
+2024-11-06 16:01:20.129 +07:00 [DBG] Connection id "0HN7U869HR51C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:01:20.149 +07:00 [DBG] Connection id "0HN7U869HR51C" stopped.
+2024-11-06 16:02:45.990 +07:00 [DBG] Connection id "0HN7U869HR51D" accepted.
+2024-11-06 16:02:45.994 +07:00 [DBG] Connection id "0HN7U869HR51D" started.
+2024-11-06 16:02:46.003 +07:00 [DBG] Connection 0HN7U869HR51D established using the following protocol: "Tls13"
+2024-11-06 16:02:46.006 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:02:46.010 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:02:46.011 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:02:46.011 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:02:46.012 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:02:46.013 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:02:46.014 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.014 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:02:46.014 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.015 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:02:46.016 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:02:46.017 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:02:46.017 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:02:46.018 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:02:46.019 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:02:46.019 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:02:46.021 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:02:46.021 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:02:46.022 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:02:46.022 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.023 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.023 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.024 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:02:46.025 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.025 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:02:46.026 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:02:46.026 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.027 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.028 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.028 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:02:46.029 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.029 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:02:46.030 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:02:46.030 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.031 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.031 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:02:46.032 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.032 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:02:46.033 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:02:46.033 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.034 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.035 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:02:46.035 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.038 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:02:46.040 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:02:46.040 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:02:46.041 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.042 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.043 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:02:46.043 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:02:46.044 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:02:46.045 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:02:46.049 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:02:46.050 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.051 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:02:46.052 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.052 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:02:46.053 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:02:46.054 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:02:46.054 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:02:46.054 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:02:46.055 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:02:46.055 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:02:46.056 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 36.8036ms
+2024-11-06 16:02:46.057 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.057 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:02:46.058 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.059 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:02:46.059 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 53.7822ms
+2024-11-06 16:02:46.861 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:02:46.863 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:02:46.863 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:02:46.864 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:02:46.865 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:02:46.866 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:02:46.867 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.867 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:02:46.868 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.868 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:02:46.870 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:02:46.871 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:02:46.872 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:02:46.873 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:02:46.874 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:02:46.875 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:02:46.876 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:02:46.878 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:02:46.879 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:02:46.881 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.882 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.883 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.884 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:02:46.885 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:02:46.886 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:02:46.888 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:02:46.889 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.890 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.891 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.892 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:02:46.893 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:02:46.893 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:02:46.894 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:02:46.895 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.895 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.896 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:02:46.897 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:02:46.897 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:02:46.898 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:02:46.899 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.900 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.900 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:02:46.901 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:02:46.902 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:02:46.904 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:02:46.904 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:02:46.904 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.905 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.906 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:02:46.907 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:02:46.907 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:02:46.908 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:02:46.913 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:02:46.914 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.915 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:02:46.916 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.916 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:02:46.917 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:02:46.918 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:02:46.919 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:02:46.919 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:02:46.920 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:02:46.920 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:02:46.921 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 46.3773ms
+2024-11-06 16:02:46.922 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:02:46.923 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:02:46.923 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:02:46.924 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:02:46.924 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 63.8123ms
+2024-11-06 16:02:55.216 +07:00 [DBG] Connection id "0HN7U869HR51D" received FIN.
+2024-11-06 16:02:55.224 +07:00 [DBG] Connection id "0HN7U869HR51D" is closed. The last processed stream ID was 3.
+2024-11-06 16:02:55.225 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51D completed.
+2024-11-06 16:02:55.229 +07:00 [DBG] Connection id "0HN7U869HR51D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:02:55.248 +07:00 [DBG] Connection id "0HN7U869HR51D" stopped.
+2024-11-06 16:04:10.781 +07:00 [DBG] Connection id "0HN7U869HR51E" accepted.
+2024-11-06 16:04:10.785 +07:00 [DBG] Connection id "0HN7U869HR51E" started.
+2024-11-06 16:04:10.789 +07:00 [DBG] Connection 0HN7U869HR51E established using the following protocol: "Tls13"
+2024-11-06 16:04:10.794 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:04:10.800 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:04:10.800 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:04:10.801 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:04:10.802 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:04:10.802 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:04:10.803 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:10.804 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:04:10.804 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:10.805 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:04:10.806 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:04:10.807 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:04:10.808 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:10.809 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:04:10.809 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:10.810 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:10.811 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:10.812 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:10.813 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:10.814 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:04:10.814 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:10.815 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:10.816 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:10.816 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:04:10.817 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:10.818 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:10.818 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:10.819 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:10.820 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:10.821 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:10.821 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:10.822 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:10.823 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:04:10.824 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:10.824 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:10.825 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:10.825 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:10.826 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:10.827 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:04:10.828 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:10.829 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:10.829 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:10.830 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:10.831 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:04:10.833 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:04:10.833 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:04:10.834 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:10.835 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:10.835 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:04:10.836 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:10.837 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:04:10.838 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:10.843 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:10.844 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:10.845 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:04:10.846 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:10.846 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:04:10.847 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:04:10.849 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:04:10.849 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:04:10.850 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:04:10.850 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:04:10.851 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:04:10.852 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 41.1918ms
+2024-11-06 16:04:10.852 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:10.853 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:04:10.854 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:10.855 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-11-06 16:04:10.856 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 61.4434ms
+2024-11-06 16:04:15.301 +07:00 [DBG] Connection id "0HN7U869HR51E" received FIN.
+2024-11-06 16:04:15.302 +07:00 [DBG] Connection id "0HN7U869HR51E" is closed. The last processed stream ID was 1.
+2024-11-06 16:04:15.302 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51E completed.
+2024-11-06 16:04:15.304 +07:00 [DBG] Connection id "0HN7U869HR51E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:04:15.316 +07:00 [DBG] Connection id "0HN7U869HR51E" stopped.
+2024-11-06 16:04:16.545 +07:00 [DBG] Connection id "0HN7U869HR51F" accepted.
+2024-11-06 16:04:16.552 +07:00 [DBG] Connection id "0HN7U869HR51F" started.
+2024-11-06 16:04:16.555 +07:00 [DBG] Connection 0HN7U869HR51F established using the following protocol: "Tls13"
+2024-11-06 16:04:16.558 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:04:16.560 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:04:16.560 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:04:16.561 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:04:16.562 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:04:16.562 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:04:16.564 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:16.565 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:04:16.565 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:16.566 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:04:16.567 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:04:16.568 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:04:16.569 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:16.571 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:04:16.572 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:16.573 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:16.574 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:16.575 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:16.576 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:16.578 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:04:16.701 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:16.703 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:16.704 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:16.705 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:04:16.706 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:16.707 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:16.709 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:16.710 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:16.710 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:16.711 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:16.712 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:16.713 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:16.713 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:04:16.714 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:16.715 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:16.728 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:16.731 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:16.731 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:16.732 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:04:16.733 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:16.734 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:16.735 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:16.736 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:16.738 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:04:16.740 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:04:16.741 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:04:16.741 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:16.742 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:16.744 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:04:16.745 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:16.746 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:04:16.747 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:16.754 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:16.756 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:16.757 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 1ms reading results.
+2024-11-06 16:04:16.758 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:16.759 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (1ms).
+2024-11-06 16:04:16.760 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:04:16.761 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:04:16.762 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:04:16.762 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:04:16.763 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:04:16.763 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:04:16.765 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 191.4143ms
+2024-11-06 16:04:16.765 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:16.766 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:04:16.767 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:16.768 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:04:16.769 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 210.8944ms
+2024-11-06 16:04:20.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:04:20.571 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:04:20.571 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:04:20.571 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:04:20.572 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:04:20.572 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:04:20.573 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:20.574 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:04:20.574 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:20.575 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:04:20.576 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:04:20.576 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:04:20.577 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:20.579 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:04:20.579 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:20.580 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:20.581 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:20.582 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:20.582 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:20.583 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:04:20.584 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:20.586 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:20.587 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:20.588 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:04:20.589 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:20.589 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:20.590 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:20.591 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:20.592 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:20.592 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:20.593 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:20.593 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:20.594 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:04:20.595 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:20.595 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:20.596 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:20.596 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:20.597 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:20.598 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:04:20.599 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:20.599 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:20.599 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:20.600 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:20.601 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:04:20.603 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:04:20.603 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:04:20.604 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:20.604 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:20.605 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:04:20.605 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:20.606 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:20.606 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:20.611 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:20.612 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:20.613 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:04:20.613 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:20.614 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:04:20.615 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:04:20.616 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:04:20.616 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:04:20.616 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:04:20.617 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:04:20.618 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:04:20.619 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 38.7236ms
+2024-11-06 16:04:20.619 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:20.620 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:04:20.620 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:20.621 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:04:20.621 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 52.9319ms
+2024-11-06 16:04:22.073 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:04:22.075 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:04:22.075 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:04:22.076 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:04:22.077 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:04:22.078 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:04:22.079 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:22.080 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:04:22.080 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:22.081 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:04:22.081 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:04:22.082 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:04:22.082 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:22.084 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:04:22.084 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:04:22.085 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:22.089 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:04:22.091 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:22.092 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:22.093 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:04:22.094 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:22.095 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:04:22.096 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:04:22.096 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:04:22.098 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:22.099 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:04:22.100 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:22.101 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:22.101 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:22.102 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:04:22.102 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:04:22.103 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:22.104 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:04:22.104 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:22.105 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:22.106 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:04:22.106 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:04:22.107 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:22.107 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:04:22.108 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:22.109 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:22.110 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:04:22.110 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:04:22.112 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:04:22.113 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:04:22.114 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:04:22.114 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:22.115 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:22.116 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:04:22.116 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:22.117 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:04:22.117 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:22.122 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:04:22.123 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:22.124 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:04:22.125 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:22.125 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:04:22.126 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:04:22.127 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:04:22.128 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:04:22.128 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:04:22.128 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:04:22.129 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:04:22.130 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 44.4469ms
+2024-11-06 16:04:22.130 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:04:22.131 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:04:22.132 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:04:22.132 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:04:22.133 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 60.0028ms
+2024-11-06 16:04:25.310 +07:00 [DBG] Connection id "0HN7U869HR51F" received FIN.
+2024-11-06 16:04:25.312 +07:00 [DBG] Connection id "0HN7U869HR51F" is closed. The last processed stream ID was 5.
+2024-11-06 16:04:25.313 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51F completed.
+2024-11-06 16:04:25.314 +07:00 [DBG] Connection id "0HN7U869HR51F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:04:25.322 +07:00 [DBG] Connection id "0HN7U869HR51F" stopped.
+2024-11-06 16:05:40.929 +07:00 [DBG] Connection id "0HN7U869HR51G" accepted.
+2024-11-06 16:05:40.930 +07:00 [DBG] Connection id "0HN7U869HR51G" started.
+2024-11-06 16:05:40.966 +07:00 [DBG] Connection 0HN7U869HR51G established using the following protocol: "Tls13"
+2024-11-06 16:05:40.971 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:05:40.975 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:05:40.975 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:05:40.975 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:05:40.976 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:05:40.976 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:05:40.977 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:05:40.978 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:05:40.978 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:05:40.979 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:05:40.979 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:05:40.980 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:05:40.980 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:05:40.982 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:05:40.983 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:05:40.984 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:05:40.985 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:05:40.985 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:05:40.986 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:05:40.987 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:05:40.987 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:05:40.988 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:05:40.989 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:05:40.989 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:05:40.990 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:05:40.990 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:05:40.991 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:05:40.992 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:05:40.992 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:05:40.993 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:05:40.993 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:05:40.994 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:05:40.994 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:05:40.995 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:05:40.995 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:05:40.996 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:05:40.997 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:05:40.997 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:05:40.998 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:05:40.999 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:05:41.000 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:05:41.001 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:05:41.001 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:05:41.003 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:05:41.004 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:05:41.005 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:05:41.005 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:05:41.006 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:05:41.007 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:05:41.007 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:05:41.008 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:05:41.008 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:05:41.015 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:05:41.016 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:05:41.017 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:05:41.018 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:05:41.019 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:05:41.020 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:05:41.021 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:05:41.021 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:05:41.021 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:05:41.022 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:05:41.022 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:05:41.023 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 39.2605ms
+2024-11-06 16:05:41.024 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:05:41.024 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:05:41.025 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:05:41.025 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:05:41.026 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 55.6935ms
+2024-11-06 16:05:50.420 +07:00 [DBG] Connection id "0HN7U869HR51G" received FIN.
+2024-11-06 16:05:50.421 +07:00 [DBG] Connection id "0HN7U869HR51G" is closed. The last processed stream ID was 1.
+2024-11-06 16:05:50.422 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51G completed.
+2024-11-06 16:05:50.422 +07:00 [DBG] Connection id "0HN7U869HR51G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:05:50.424 +07:00 [DBG] Connection id "0HN7U869HR51G" stopped.
+2024-11-06 16:06:02.091 +07:00 [DBG] Connection id "0HN7U869HR51H" accepted.
+2024-11-06 16:06:02.092 +07:00 [DBG] Connection id "0HN7U869HR51H" started.
+2024-11-06 16:06:02.094 +07:00 [DBG] Connection 0HN7U869HR51H established using the following protocol: "Tls13"
+2024-11-06 16:06:02.096 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - null null
+2024-11-06 16:06:02.102 +07:00 [DBG] The request has an origin header: 'http://localhost:3000'.
+2024-11-06 16:06:02.103 +07:00 [INF] CORS policy execution successful.
+2024-11-06 16:06:02.103 +07:00 [DBG] The request path  does not match the path filter
+2024-11-06 16:06:02.104 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Appointment'
+2024-11-06 16:06:02.104 +07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)' with route pattern 'api/Appointment' is valid for the request path '/api/Appointment'
+2024-11-06 16:06:02.105 +07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:06:02.106 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-11-06 16:06:02.106 +07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:06:02.107 +07:00 [INF] Route matched with {action = "GetAllAppointment", controller = "Appointment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAppointment(System.String, System.String, Int32, Int32) on controller CityInfo.API.Controllers.AppointmentController (CityInfo.API).
+2024-11-06 16:06:02.108 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-06 16:06:02.109 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-06 16:06:02.110 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:06:02.111 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-06 16:06:02.111 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2024-11-06 16:06:02.112 +07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:06:02.113 +07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AppointmentController (CityInfo.API)
+2024-11-06 16:06:02.114 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2024-11-06 16:06:02.114 +07:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:06:02.115 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'search' of type 'System.String'.
+2024-11-06 16:06:02.116 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:06:02.117 +07:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2024-11-06 16:06:02.118 +07:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2024-11-06 16:06:02.118 +07:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2024-11-06 16:06:02.119 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:06:02.120 +07:00 [DBG] Attempting to bind parameter 'sortBy' of type 'System.String' using the name '' in request data ...
+2024-11-06 16:06:02.120 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:06:02.121 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:06:02.122 +07:00 [DBG] Done attempting to bind parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:06:02.123 +07:00 [DBG] Attempting to validate the bound parameter 'sortBy' of type 'System.String' ...
+2024-11-06 16:06:02.124 +07:00 [DBG] Done attempting to validate the bound parameter 'sortBy' of type 'System.String'.
+2024-11-06 16:06:02.124 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:06:02.125 +07:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name 'page' in request data ...
+2024-11-06 16:06:02.126 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:06:02.127 +07:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2024-11-06 16:06:02.127 +07:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2024-11-06 16:06:02.128 +07:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2024-11-06 16:06:02.129 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:06:02.130 +07:00 [DBG] Attempting to bind parameter 'page_size' of type 'System.Int32' using the name 'page_size' in request data ...
+2024-11-06 16:06:02.131 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:06:02.131 +07:00 [DBG] Done attempting to bind parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:06:02.132 +07:00 [DBG] Attempting to validate the bound parameter 'page_size' of type 'System.Int32' ...
+2024-11-06 16:06:02.132 +07:00 [DBG] Done attempting to validate the bound parameter 'page_size' of type 'System.Int32'.
+2024-11-06 16:06:02.133 +07:00 [DBG] Entity Framework Core 8.0.8 initialized 'DoctorManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-11-06 16:06:02.135 +07:00 [DBG] Creating DbConnection.
+2024-11-06 16:06:02.136 +07:00 [DBG] Created DbConnection. (0ms).
+2024-11-06 16:06:02.136 +07:00 [DBG] Opening connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:06:02.137 +07:00 [DBG] Opened connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:06:02.138 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-11-06 16:06:02.138 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-11-06 16:06:02.139 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-11-06 16:06:02.140 +07:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:06:02.151 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[AppointmentTime], [t].[AppointmentStatus], [t].[AppointmentComment], [t].[PatientId], [t].[DoctorId], [p].[Gender], [p].[Avatar], [p].[FullName], [p].[Date], (DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date])) - CASE
+    WHEN GETDATE() < DATEADD(year, CAST(DATEPART(year, GETDATE()) - DATEPART(year, [p].[Date]) AS int), [p].[Date]) THEN 1
+    ELSE 0
+END AS [Age]
+FROM (
+    SELECT [a].[AppointmentComment], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[DoctorId], [a].[PatientId]
+    FROM [Appointment] AS [a]
+    ORDER BY [a].[AppointmentTime]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Patient] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentTime]
+2024-11-06 16:06:02.152 +07:00 [DBG] Closing data reader to 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:06:02.153 +07:00 [DBG] A data reader for 'DoctorDatabase' on server '.\sqlexpress' is being disposed after spending 0ms reading results.
+2024-11-06 16:06:02.154 +07:00 [DBG] Closing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:06:02.154 +07:00 [DBG] Closed connection to database 'DoctorDatabase' on server '.\sqlexpress' (0ms).
+2024-11-06 16:06:02.155 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-11-06 16:06:02.156 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-11-06 16:06:02.157 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-06 16:06:02.157 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-06 16:06:02.158 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-06 16:06:02.159 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.AppointmentModel, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-06 16:06:02.160 +07:00 [INF] Executed action CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API) in 47.3619ms
+2024-11-06 16:06:02.160 +07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AppointmentController.GetAllAppointment (CityInfo.API)'
+2024-11-06 16:06:02.161 +07:00 [DBG] 'DoctorManagementContext' disposed.
+2024-11-06 16:06:02.161 +07:00 [DBG] Disposing connection to database 'DoctorDatabase' on server '.\sqlexpress'.
+2024-11-06 16:06:02.162 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-11-06 16:06:02.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7169/api/Appointment?page=1&page_size=7 - 200 2394 application/json; charset=utf-8 66.9138ms
+2024-11-06 16:06:10.455 +07:00 [DBG] Connection id "0HN7U869HR51H" received FIN.
+2024-11-06 16:06:10.456 +07:00 [DBG] Connection id "0HN7U869HR51H" is closed. The last processed stream ID was 1.
+2024-11-06 16:06:10.456 +07:00 [DBG] The connection queue processing loop for 0HN7U869HR51H completed.
+2024-11-06 16:06:10.456 +07:00 [DBG] Connection id "0HN7U869HR51H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-06 16:06:10.469 +07:00 [DBG] Connection id "0HN7U869HR51H" stopped.

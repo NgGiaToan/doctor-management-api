@@ -5718,11 +5718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj",
+      "projectUniqueName": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\CityInfo.API.csproj",
       "projectName": "CityInfo.API",
-      "projectPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\CityInfo.API.csproj",
+      "projectPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\CityInfo.API.csproj",
       "packagesPath": "C:\\Users\\giato\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\CityInfo.API\\obj\\",
+      "outputPath": "C:\\Users\\giato\\Downloads\\Workspace\\.Net\\api\\CityInfo.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giato\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5733,6 +5733,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5848,7 +5849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

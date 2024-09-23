@@ -4,6 +4,7 @@ using CityInfo.API.Models;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 
 namespace CityInfo.API.Controllers
 {
@@ -12,7 +13,7 @@ namespace CityInfo.API.Controllers
     public class AppointmentController : ControllerBase
     {
         private readonly IAppointmentRespository _appointmentRespository;
-
+       
         public AppointmentController(IAppointmentRespository appointmentRespository, IEmailSender service)
         {
             _appointmentRespository = appointmentRespository;
@@ -26,6 +27,21 @@ namespace CityInfo.API.Controllers
             try
             {
                 var result = _appointmentRespository.GetAll(search, sortBy, page, page_size);
+                return Ok(result);
+            }
+            catch
+            {
+                return BadRequest("We can't get the patient.");
+            }
+        }
+
+        [HttpGet("RecentPatient/{n}")]
+
+        public IActionResult RecentPatient(int n)
+        {
+            try
+            {
+                var result = _appointmentRespository.RecentPatient(n);
                 return Ok(result);
             }
             catch
@@ -59,7 +75,7 @@ namespace CityInfo.API.Controllers
         [HttpPut("{id}")]
         public IActionResult Update(Guid id, AppointmentVM appointment)
         {
-            if (id != appointment.AppoitmentId)
+            if (id != appointment.AppointmentId)
             {
                 return BadRequest();
             }
@@ -91,19 +107,19 @@ namespace CityInfo.API.Controllers
 
         private readonly IEmailSender emailService;
 
-        [HttpPost("SendMail")]
-        public async Task<IActionResult> SendMail(AppointmentModelForAdd appointment)
-        {
-            try
-            {
-                await _appointmentRespository.Add(appointment);
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
-        }
+        //[HttpPost("SendMail")]
+        //public async Task<IActionResult> SendMail(AppointmentModelForAdd appointment)
+        //{
+        //    try
+        //    {
+        //        await _appointmentRespository.Add(appointment);
+        //        return Ok();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw;
+        //    }
+        //}
 
         [HttpPost]
         public async Task<IActionResult> Add(AppointmentModelForAdd appointment)

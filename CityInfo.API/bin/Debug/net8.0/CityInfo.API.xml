@@ -49,6 +49,66 @@
         <member name="M:CityInfo.API.Migrations.DoctorManagement.UpdateFluentAPI.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:CityInfo.API.Migrations.DoctorManagement.AddDoctorTB">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddDoctorTB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddDoctorTB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddDoctorTB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.DoctorManagement.UpdateAppointmentTB">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.UpdateAppointmentTB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.UpdateAppointmentTB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.UpdateAppointmentTB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.DoctorManagement.AddTiemColumnToPatient">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddTiemColumnToPatient.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddTiemColumnToPatient.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddTiemColumnToPatient.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.DoctorManagement.AddAppointmentConfirmed">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddAppointmentConfirmed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddAppointmentConfirmed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddAppointmentConfirmed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.DoctorManagement.AddPatientStatusToAppointment">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddPatientStatusToAppointment.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddPatientStatusToAppointment.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.DoctorManagement.AddPatientStatusToAppointment.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:CityInfo.API.Models.CityWithoutPointsOfInterestDto">
             <summary>
             A DTO for a city without points of interest
